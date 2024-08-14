@@ -1,0 +1,105 @@
+use practice;
+-- Create a table
+CREATE TABLE employees (
+    employee_id INT,
+    employee_name VARCHAR(100),
+    department VARCHAR(100),
+    salary DECIMAL(10, 2)
+);
+
+-- Insert some sample records
+INSERT INTO employees (employee_id, employee_name, department, salary)
+VALUES
+    (1, 'John Doe', 'IT', 50000.00),
+    (2, 'Jane Smith', 'HR', 60000.00),
+    (3, 'Bob Johnson', 'Finance', 55000.00),
+    (4, 'Alice Brown', 'IT', 45000.00),
+    (5, 'Mark Davis', 'Finance', 65000.00),
+    (6, 'Sarah Adams', 'HR', 55000.00),
+    (7, 'Mike Wilson', 'IT', 48000.00),
+    (8, 'Emily Clark', 'Finance', 60000.00),
+    (9, 'David Anderson', 'IT', 52000.00),
+    (10, 'Jessica Lee', 'HR', 58000.00),
+    (11, 'Daniel Harris', 'Finance', 56000.00),
+    (12, 'Sophia Taylor', 'IT', 49000.00);
+
+-- Create the first view
+CREATE VIEW vw_it_employees AS
+SELECT employee_id, employee_name, salary
+FROM employees
+WHERE department = 'IT';
+
+-- Create the second view
+CREATE VIEW vw_hr_employees AS
+SELECT employee_id, employee_name, salary
+FROM employees
+WHERE department = 'HR';
+
+-- Create the third view
+CREATE VIEW vw_finance_employees AS
+SELECT employee_id, employee_name, salary
+FROM employees
+WHERE department = 'Finance';
+
+-- Query the first view
+SELECT * FROM vw_it_employees;
+
+-- Query the second view
+SELECT * FROM vw_hr_employees;
+
+-- Query the third view
+SELECT * FROM vw_finance_employees;
+
+-- Create a view for employees with high salary
+CREATE VIEW vw_high_salary_employees AS
+SELECT employee_id, employee_name, salary
+FROM employees
+WHERE salary > 55000.00;
+
+-- Create a view for employees with low salary
+CREATE VIEW vw_low_salary_employees AS
+SELECT employee_id, employee_name, salary
+FROM employees
+WHERE salary < 50000.00;
+
+-- Create a view for employees with average salary
+CREATE VIEW vw_average_salary_employees AS
+SELECT employee_id, employee_name, salary
+FROM employees
+WHERE salary BETWEEN 50000.00 AND 60000.00;
+
+-- Query the view for employees with high salary
+SELECT * FROM vw_high_salary_employees;
+
+-- Query the view for employees with low salary
+SELECT * FROM vw_low_salary_employees;
+
+-- Query the view for employees with average salary
+SELECT * FROM vw_average_salary_employees;
+
+-- Create a view for employees with names starting with 'J'
+CREATE VIEW vw_j_employees AS
+SELECT employee_id, employee_name, department, salary
+FROM employees
+WHERE employee_name LIKE 'J%';
+
+-- Create a view for employees with names ending with 's'
+CREATE VIEW vw_s_employees AS
+SELECT employee_id, employee_name, department, salary
+FROM employees
+WHERE employee_name LIKE '%s';
+
+-- Create a view for employees with names containing 'o'
+CREATE VIEW vw_o_employees AS
+SELECT employee_id, employee_name, department, salary
+FROM employees
+WHERE employee_name LIKE '%o%';
+
+-- Query the view for employees with names starting with 'J'
+SELECT * FROM vw_j_employees;
+
+-- Query the view for employees with names ending with 's'
+SELECT * FROM vw_s_employees;
+
+-- Query the view for employees with names containing 'o'
+SELECT * FROM vw_o_employees;

@@ -1,0 +1,92 @@
+Sub Queries or Nested Queries:
+
+> create table department (id int primary key, name varchar(10));
+
+> insert into department values(1, 'IT'), (2, 'HR');
+
+> select * from department;
+
+
+> create table emp1 (id serial primary key, 
+ name varchar(20), salary real, 
+ departmentId int, foreign key(departmentId) references department(id));
+
+> insert into emp1 (name, salary, departmentId)
+values ('Ravi', 70000, 1), ('Ram', 90000, 1), ('Priya', 80000, 2), ('Mohan', 75000, 2), ('Shilpa', 90000, 1);
+
+> select * from employee;
+
+> insert into emp1 (name, salary, departmentId) values ('Manoj', 80000, 3); 
+  ---- violates the foreign key constraint
+
+
+_____________________________________________________________________________________________________________
+
+Q. Find out the names of Employees whose salary is less than the overall average salary?
+
+
+
+
+
+> select avg(salary) as average from emp1;  --- 81000
+
+> select * from emp1 where salary < 81000;
+
+> select * from emp1 where salary < (Select avg(salary) from emp1);
+______________________________________________________________________________________________________________
+
+Q. Get the highest salary by the department.
+
+> select max(salary) from emp1 group by departmentId;
+
+
+Q. Show the department id also in the above query.
+
+> select departmentId, max(salary) from emp1 group by departmentId;
+
+
+Q. Show the name of the department.
+
+> select departmentId, department.name, max(salary) from emp1 inner join department on emp1.departmentId = department.id
+group by departmentId, department.name;
+
+
+Q. show the name of the employee also.
+
+> select departmentId, department.name, emp1.name, max(salary) from emp1 inner join department 
+on emp1.departmentId = department.id
+group by departmentId, department.name, emp1.name; 
+
+1	"IT"	"Shilpa"	90000
+2	"HR"	"Priya"	80000
+1	"IT"	"Ram"	90000
+1	"IT"	"Ravi"	70000
+2	"HR"	"Mohan"	75000
+
+This doesn't work as we are now creating groups on the combination of Department and Employee.
+
+> select department.name, emp1.name, salary 
+from emp1 inner join department 
+on emp1.departmentId = department.id 
+where (departmentId, salary) in 
+(select departmentId, max(salary) as salary from emp1 group by departmentId);
+
+Output:
+"IT"	"Ram"	90000
+"HR"	"Priya"	80000
+"IT"	"Shilpa"	90000
+_______________________________________________________________________________________________________
+
+Q. Selecting the second-highest salary of an employee
+
+How to get top nth, this would not be an optimum solution, instead, we can use this:
+> select salary as second_highest_salary from emp1 order by salary desc offset 1 limit 1;
+
+> select max(salary) from emp1; --- this will give the maximum salary
+
+Suppose we need those salaries which are less than this:
+> select salary from emp1 where salary < (select max(salary) from emp1);
+
+The second maximum means - the maximum of this new list:
+> select max(salary) from emp1 where salary < (select max(salary) from emp1);
+

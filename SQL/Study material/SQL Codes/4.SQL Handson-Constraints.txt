@@ -1,0 +1,270 @@
+Constraints:
+5 types of keys supported in MySQL
+Primary Key,  Foreign Key, Composite Primary Key, Unique Key, Candidate Key
+Auto Increment
+DDL and DML commands
+
+DDL - Create, Alter, Drop, Truncate
+DML - Insert, Update, Delete
+DQL - Select
+
+> create database 360digitmg;
+> use 360digitmg;
+
+> create table student(
+first_name varchar(20) not null,
+last_name varchar(20) not null,
+age int not null,
+course_enrolled varchar(20) not null default 'Data Analytics',
+course_fee int not null
+);
+
+> insert into student(first_name, last_name, age, course_enrolled, course_fee) values ('Madhavi', 'Kumari', 24, null, 20000);  - it will throw an error that course_enrolled cannot be null
+
+> insert into student(first_name, last_name, age, course_fee) values ('Madhavi', 'Kumari', 24, 40000);
+
+insert into student(first_name, last_name, age, course_fee) values ('Madhavi', 'Kumari', 24, 40000);
+
+> select * from student;
+
+> drop table student;
+
+CREATE A TABLE WITH AN "ID" COLUMN:
+> create table student(
+id int,
+first_name varchar(20) not null,
+last_name varchar(20) not null,
+age int not null,
+course_enrolled varchar(20) not null default 'Data Analytics',
+course_fee int not null
+);
+
+> desc student;
+
+> insert into student(id, first_name, last_name, age, course_fee) values (1, 'Madhavi', 'Kumari', 24, 40000);
+
+> insert into student(id, first_name, last_name, age, course_fee) values (1, 'Madhavi', 'Kumari', 24, 40000);
+
+> select * from student;
+
+> insert into student(id, first_name, last_name, age, course_fee) values (null, 'Madhavi', 'Kumari', 24, 40000);
+
+> select * from student;
+
+> drop table student;
+
+> create table student(
+id int primary key,
+first_name varchar(20) not null,
+last_name varchar(20) not null,
+age int not null,
+course_enrolled varchar(20) not null default 'Data Analytics',
+course_fee int not null
+);
+
+> insert into student(id, first_name, last_name, age, course_fee) values (null, 'Madhavi', 'Kumari', 24, 40000);
+--- this will show an error because Primary Key cannot be null.
+
+> insert into student(id, first_name, last_name, age, course_fee) values (1, 'Madhavi', 'Kumari', 24, 40000);
+
+> insert into student(id, first_name, last_name, age, course_fee) values (1, 'Madhavi', 'Kumari', 24, 40000);
+---this will show an error that the primary key cannot be duplicated
+
+> insert into student(id, first_name, last_name, age, course_fee) values (2, 'Madhavi', 'Kumari', 24, 40000);
+
+> select * from student;
+
+> drop table student;
+
+
+> create table student(id int, first_name varchar(20) not null,
+last_name varchar(20) not null, age int not null,
+course_enrolled varchar(20) not null default 'Data Analytics',
+course_fee int not null, primary key(id));
+
+
+> insert into student(id, first_name, last_name, age, course_fee) values (1, 'Madhavi', 'Kumari', 24, 40000);
+
+> insert into student(id, first_name, last_name, age, course_fee) values (2, 'Madhavi', 'Kumari', 24, 40000);
+
+COMPOSITE PRIMARY KEY
+> create table sales_rep(
+rep_fname varchar(20) not null,
+rep_lname varchar(20) not null,
+salary int not null
+);
+
+> insert into sales_rep(rep_fname, rep_lname, salary) values('Anil', 'Sharma', 25000), ('Ankit', 'Verma', 30000), ('Anil', 'Sharma', 25000);
+
+> select * from sales_rep;
+
+> drop table sales_rep;
+
+> create table sales_rep(
+rep_fname varchar(20) not null,
+rep_lname varchar(20) not null,
+salary int not null,
+primary key(rep_fname, rep_lname)
+);
+
+> insert into sales_rep(rep_fname, rep_lname, salary) values('Anil', 'Sharma', 25000), ('Ankit', 'Verma', 30000), ('Anil', 'Sharma', 25000);
+--- will throw an error
+
+> insert into sales_rep(rep_fname, rep_lname, salary) values('Anil', 'Sharma', 25000), ('Ankit', 'Verma', 30000), ('Sunil', 'Sharma', 25000);
+
+> select * from sales_rep;
+
+AUTO-INCREMENT
+insert into student(id, first_name, last_name, age, course_enrolled, course_fee) values (2, 'Sandhya', 'Devi', 28, 'Data Science', 50000); 
+--- Throw error duplicate entry 
+
+drop table student;
+
+create table student(id int auto_increment,
+first_name varchar(20) not null,
+last_name varchar(20) not null, age int not null,
+course_enrolled varchar(20) not null default 'Data Analytics',
+course_fee int not null, primary key(id));
+
+desc student;
+
+insert into student(first_name, last_name, age, course_enrolled, course_fee) values ('Sandhya', 'Devi', 28, 'Data Science', 50000), ('Priya', 'Darshini', 25, 'Data Science', 50000);
+
+select * from student;
+
+insert into student(first_name, last_name, age, course_fee) values ('Ravi', 'Mittal', 28, 30000), ('Akhil', 'K', 25, 30000);
+
+select * from student;
+
+Beginning Auto Increment from a different value (by default it will be 1) - 
+create table identification(id int auto_increment, name varchar(20), primary key(id));
+alter table identification auto_increment=1001;
+insert into identification(name) values('Ravi'), ('Mohan'), ('Priya');
+
+Primary Key is used to recognize each record in a distinct manner, it will not accept nulls and there can be only one Primary Key in a table.
+Primary Key could be on multiple columns - Composite Primary Key.
+_______________________________________________________________________________________________________________
+
+UNIQUE KEY - ALLOW ONLY DISTINCT VALUES TO BE ENTERED IN A FIELD.
+A Table can have multiple Unique Keys. Null entries are allowed.
+
+> create table email_registration(
+f_name varchar(20) not null,
+l_name varchar(20) not null,
+email varchar(50) not null
+);
+
+> insert into email_registration values ('Mohan', 'Bhargav', 'mohan_b@gmail.com');
+
+> insert into email_registration values ('Mohan', 'Bhajpai', 'mohan_b@gmail.com');
+
+> select * from email_registration;            
+--- 2 people with the same email id, which should not be allowed
+
+> drop table email_registration;
+
+> create table email_registration(
+f_name varchar(20),
+l_name varchar(20),
+email varchar(50) unique key,
+primary key(f_name,l_name)
+);
+
+> insert into email_registration values ('Mohan', 'Bhargav', 'mohan_b@gmail.com');
+
+> insert into email_registration values ('Mohan', 'Bhajpai', null);
+---will be allowed
+
+> drop table email_registration;
+
+> create table email_registration(f_name varchar(20) not null,
+l_name varchar(20) not null, email varchar(50) not null unique key,
+primary key(f_name, l_name));
+
+> desc email_registration;
+
+> insert into email_registration values ('Mohan', 'Bhargav', 'mohan_b@gmail.com');
+
+> insert into email_registration values ('Mohan', 'Bhajpai', 'mohan_b@gmail.com');
+--- second insert statement will throw an error "duplicate entry)
+
+> insert into email_registration values ('Mohan', 'Bhajpai', null);
+---won't work as 'null' is given for email, which violates the not null constraint
+
+> insert into email_registration values ('Mohan', 'Bhajpai', 'mohan_bhajpai@gmail.com');
+
+> insert into email_registration values ('Sakshi', null, 'sakshi@gmail.com');
+
+> insert into email_registration values ('Sakshi', 'Rajpoot', 'sakshi_r@gmail.com');
+
+> select * from email_registration;
+UNIQUE KEY is used to make sure unique values (no duplicates) are entered into a field.
+UNIQUE KEY can take NULL also, and we can have multiple unique keys in a table.
+_________________________________________________________________________________________________
+
+Difference between Primary Key and Unique Key - 
+1) There can be only 1 Primary key, whereas there can be multiple Unique Keys
+2) Primary Key cannot be NULL, whereas Unique Key could be NULL
+
+_________________________________________________________________________________________________
+DDL - Create, Alter, Drop, Truncate 
+DML - Insert, Update, and Delete
+DQL - Select
+
+Select Statements-
+> select * from student;   it gives all the columns and all the rows/tuples
+
+> select first_name, last_name from student;   it gives selected columns and all the rows/tuples
+
+> select first_name, last_name from student where course_fee>40000;    it gives the selected columns and rows meeting the where condition
+
+> select first_name, last_name from student where first_name = 'sandhya';   - by default it is not case sensitive
+
+> select first_name, last_name from student where binary first_name = 'sandhya'; - use the binary option to make it case sensitive
+
+> select * from student where first_name like '____'; give the names with exactly 4 characters in it
+
+> select * from student where first_name like 'a%';  give the names which have the character 'a' in the first place
+
+> insert into student(first_name, last_name, age, course_enrolled, course_fee) values ('Sand%ya', 'Devi', 28, 'Data Science', 50000);
+
+> select * from student where first_name like '%\%y%';
+
+
+Update Statements: 
+> update student set course_fee=35000 where course_enrolled = 'Data Analytics';
+
+> update student set course_fee = course_fee-5000;
+
+> update student set course_fee = course_fee+(course_fee*0.5) where course_enrolled = "Data Analytics";
+
+
+Delete Statements: 
+> delete from student where first_name = 'Ravi';   - delete certian rows which meet the conditions
+
+> delete from student;    -deletes all the rows
+_________________________________________________________________________________________
+DDL - Drop, Alter, Truncate
+
+Alter Statement:
+> alter table student add column location varchar(30) not null default 'Hyderabad';
+
+> alter table student drop column location;
+
+> desc student;
+
+> alter table student modify column first_name varchar(50);
+
+> desc email_registration;
+
+> alter table email_registration drop primary key;
+
+> alter table email_registration add primary key(f_name,l_name);
+
+> alter table email_registration drop constraint email; --- drop the unique key constraint
+
+> alter table email_registration add constraint unique key(email);
+
+Drop - deletes the entire table along with the structure
+Truncate - Drops the table and recreates the structure. We can't give a "Where" clause.
+Delete - Deletes the Rows/Tuples in the table, we can give the "Where" clause and delete exactly what needs to be deleted.

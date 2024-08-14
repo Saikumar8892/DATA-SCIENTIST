@@ -1,0 +1,154 @@
+create database mydatabase;
+use mydatabase;
+create table customers(id Int primary key, cus_name varchar(30), email varchar(50), phone_number varchar(50));
+insert into customers values(1, 'sai kumar', 'sai@gmail.com', '6302460630');
+insert into customers values(2, 'satya', 'satya@gmail.com', '1234567894');
+insert into customers values(3, 'sanjay', 'sanjay@gmail.com', '9876543210');
+set sql_safe_updates = 0;
+update customers set email='sai12@gmail.com' where cus_name = 'sai kumar';
+truncate table customers;
+
+
+CREATE DATABASE EMPLOYEES_DATA;
+USE EMPLOYEES_DATA;
+CREATE TABLE EMPLOYEE(FIRST_NAME VARCHAR(20) NOT NULL, 
+              MID_NAME VARCHAR(20),LAST_NAME VARCHAR(20) NOT NULL,
+              AGE INT NOT NULL,SALARY INT NOT NULL,
+              LOCATION VARCHAR(20) NOT NULL DEFAULT'NANDYAL');
+INSERT INTO EMPLOYEE VALUES('VENKATA','SAI','KUMAR',25,30000,'NANDYAL');
+INSERT INTO EMPLOYEE VALUES('N','T','R',39,30000,'NANDYAL','DATA SCIENCE');
+INSERT INTO EMPLOYEE VALUES('N','K','R',40,30000,'NANDYAL','DATA SCIENCE');
+ALTER TABLE EMPLOYEE ADD (COURSE VARCHAR(20) NOT NULL DEFAULT'DATA SCIENCE');
+ALTER TABLE EMPLOYEE ADD (COURSE1 VARCHAR(20) NOT NULL DEFAULT'DATA ANALYST');
+
+USE EMPLOYEES_DATA;
+CREATE TABLE EDUCATION(DATASRNO INT, WORKEX INT, GMAT INT);
+SELECT * FROM EDUCATION;
+INSERT INTO EDUCATION VALUES(1,10,700);
+INSERT INTO EDUCATION VALUES(2,11,650);
+INSERT INTO EDUCATION VALUES(3,12,690);
+DELETE FROM EDUCATION WHERE DATASRNO=1;
+
+
+use student_data;
+create table student1(first_name varchar(20), last_name varchar(20), age int, marks int);
+insert into student1 values('sai', 'kumar', 25, 925);
+insert into student1 values('rohit', 'koar', 26, 926);
+insert into student1 values('abhi', 'kumar', 24, 928);
+insert into student1 values('vishal', 'yadav', 23, 924);
+insert into student1 values('satya', 'vas', 27, 927);
+Alter table student1 add (grade varchar(10));
+set sql_safe_updates = 0;
+update student1 set grade = 'A' where marks >= 925;
+update student1 set grade = 'B' where marks = 924;
+Delete from student1 where marks >927;
+Delete from student1 where first_name='rohit';
+
+USE EMPLOYEES_DATA;
+CREATE TABLE EDUCATION(DATASRNO INT, WORKEX INT, GMAT INT);
+SELECT * FROM EDUCATION;
+INSERT INTO EDUCATION VALUES(1,10,700);
+INSERT INTO EDUCATION VALUES(2,11,650);
+INSERT INTO EDUCATION VALUES(3,12,690);
+show variables like 'secure_file_priv';
+show variables like '%local%';
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/education.csv'
+INTO TABLE education 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+
+
+Create database employees;
+use employees;
+create table employee(id SERIAL primary key,
+f_nm varchar(20) not null,
+l_nm varchar(20) not null,
+age int not null,
+location varchar(20) not null default 'Hyderabad',
+dept varchar(20) not null);
+alter table employee add salary real not null;
+select * from employee;
+insert into employee (f_nm, l_nm, age, dept, salary) 
+values ('Ravi', 'Kiran', 25, 'HR', 30000.00);
+insert into employee (f_nm, l_nm, age, dept, salary) values 
+('Priya', 'Darshini', 28, 'HR', 32000.00),
+('Mohan', 'Bhargav', 35, 'IT', 40000.00),
+('Manoj', 'Bajpai', 40, 'IT', 45000.00);
+insert into employee (f_nm, l_nm, age, location, dept, salary) values 
+('Akhil', 'K', 26, 'Bangalore', 'IT', 42000.00),
+('Raja', 'Roy', 35, 'Bangalore', 'IT', 60000.00),
+('Shilpa', 'Sharma', 40, 'Chennai', 'IT', 44000.00);
+select * from employee;
+Select location from employee;
+select distinct location from employee;
+select distinct dept from employee;
+select count(distinct location) from employee;
+select f_nm from employee;
+select f_nm from employee order by f_nm;
+select f_nm from employee order by f_nm desc;
+select f_nm from employee order by age;
+select f_nm from employee order by age desc;
+select * from employee order by age, salary; 
+select * from employee limit 3;
+select * from employee order by salary limit 3;
+select * from employee order by salary desc limit 3;
+select * from employee order by age limit 5;
+select * from employee order by age, salary limit 4;
+select id,f_nm,l_nm from employee order by id limit 1 offset 0;
+select id,f_nm,l_nm from employee order by id limit 3 offset 3;
+select sum(salary) from employee;
+select avg(salary) from employee;
+select min(salary) from employee;
+select max(salary) from employee;
+select f_nm,l_nm from employee order by age limit 1;
+select location,count(*) from employee group by location;
+select dept,count(*) from employee group by dept;
+select location,dept,count(*) from employee where age>30 group by location,dept;
+select location,count(*) from employee group by location having location = 'bangalore';
+
+use 360digitmg;
+create table student(
+id int primary key,
+first_name varchar(20) not null,
+last_name varchar(20) not null,
+age int not null,
+course_enrolled varchar(20) not null default 'Data Analytics',
+course_fee int not null
+);
+desc student;
+select * from student;
+insert into student(id, first_name, last_name, age, course_fee) 
+values (1, 'Madhavi', 'Kumari', 24, 40000);
+insert into student(id, first_name, last_name, age, course_fee)
+ values (2, 'Madhavi', 'Kumari', 24, 40000);
+
+create database products_data1;
+use products_data1;
+create table products (product_id int primary key auto_increment, product varchar(30) not null, 
+                     category varchar(30) not null, price int not null);
+desc products;
+insert into products(product,category,price) 
+values("Carrots","Vegetable",200),
+("Brocoil","Vegetable",150),
+("Banana","Fruit",175),
+("Beans","vegetable",168),
+("apple","fruit",90),
+("mangoes","fruit",160),
+("kiwi","fruit",140),
+("cucumber","vegetable",180),
+("pumpkin","vegetable",60),
+("buleberries","fruit",90);
+select * from products;
+select * from products where price = 200;
+select * from products where price <=90;
+select product from products where price <=90;
+select product from products where price<>60;
+select * from products where price!=60;
+select * from products where price > 150 OR category = 'vegetable';
+select * from products where price > 150 AND category = 'vegetable';
+select * from products where price BETWEEN 60 AND 150;
+select * from products where price in(140,150,200);
+select * from products where price <= ALL(select price from products where price >200);
+select * from products where price <= ANY(select price from products where price <150);

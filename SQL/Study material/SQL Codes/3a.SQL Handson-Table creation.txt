@@ -1,0 +1,105 @@
+What is Data?
+What is a Database?
+
+Types of Data - Structured Data and Unstructured Data
+- Structured Data is where the data is arranged as Rows and Columns into Tables.
+- Rows are called Records or Tuples
+- Columns are called fields or Attributes
+- The table itself can be called an Entity
+
+
+DBMS - Relational and Non-Relational
+Examples of RDBMS are Oracle, MySQL, MS SQL, PostgreSQL, ......
+
+Installation.
+____________________________________________________________________
+Hands-on:
+
+Open the command prompt - and enter the following command
+mysql -u root -p
+Enter password: ***********
+
+
+CREATE USER 'user2'@'localhost' IDENTIFIED BY 'password';
+set password for 'user2'@'localhost'='user2';
+
+ALTER USER 'user2'@'localhost' IDENTIFIED WITH mysql_native_password BY 'user2';
+
+# Grant all privileges
+grant all on *.* to 'user2'@'localhost';
+
+
+To see the list of Databases - SHOW DATABASES;
+To go into any particular database - USE database_name;
+To see the list of tables in the database - SHOW TABLES;
+To see the Columns/Fields/Attributes of the table - DESC table_name;
+To see the Rows/Records/Tuples - SELECT * FROM table_name;
+To Delete a Database - DROP DATABASE database_name;
+
+
+CRUD (CREATE, READ, UPDATE, and DELETE) Operations:
+Creation of Tables, Inserting records into it
+
+Create a Database - CREATE DATABASE database_name;
+To select the database in which we might want to create the tables, USE database_name;
+
+
+
+Create a Table - 
+CREATE TABLE employee(
+first_name varchar(20) NOT NULL,
+mid_name varchar(20),
+last_name varchar(20) NOT NULL,
+age int NOT NULL,
+salary int NOT NULL,
+location varchar(20) NOT NULL DEFAULT 'Hyderabad'
+);
+
+
+To Insert records/rows into the database we use the INSERT command.
+INSERT INTO employee VALUES('Raja', 'Ram', 'Roy', 30, 30000, 'Hyderabad');
+
+INSERT INTO employee(first_name, mid_name, last_name, age, salary, location) VALUES('Manoj', 'Kumar', 'Sharma', 32, 35000, 'Hyderabad');
+
+INSERT INTO employee(first_name, last_name, age, salary, location) VALUES('Mohan', 'Roy', 28, 25000, 'Bangalore');
+
+INSERT INTO employee(first_name, mid_name, last_name, age, salary, location) VALUES('Manoj', 'Kumar', 'Sharma', 32, 35000, 'Hyderabad'), ('Steve', null, "Mc'Donald", 50, 750000, 'Hyderabad');
+
+INSERT INTO employee(first_name, mid_name, last_name, age, salary, location) VALUES('Manoj', 'Kumar', 'Sharma', 32, 35000, 'Hyderabad'), ('Steve', null, 'Mc\'Donald', 50, 750000, 'Hyderabad');
+
+INSERT INTO employee(first_name, last_name, age, salary) VALUES ('Raja', 'Roy', 30, 25000);
+select * from employee;
+
+DROP DATABASE database_name - Delete a Database
+
+
+
+
+# Upload data into a Table from CSV file.
+
+# 1. Create a table 
+create table education(datasrno int, workex int, gmat int);
+desc education;
+
+# Insert into the table - DML command
+Insert into education values(1, 10, 700), (2, 11, 650), (3, 12, 690);
+select * from education;
+
+#2. import data from CSV file ‘education.csv’
+
+show variables like 'secure_file_priv';
+show variables like '%local%';
+# OPT_LOCAL_INFILE=1   ---> set this parameter in workbench user connection settings (under Advanced)
+
+
+# load commmand
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/education.csv'
+INTO TABLE education 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+
+
+# Verify the uploaded data
+select * from education;

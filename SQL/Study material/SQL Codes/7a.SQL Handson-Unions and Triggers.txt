@@ -1,0 +1,137 @@
+UNIONS:
+
+> create table Aug2016 (Day int, Customer varchar(20), Purchases int, Type varchar(20));
+Import the data
+> create table Sept2016 (Day int, Customer varchar(20), Purchases real, Type varchar(20));
+Import the data
+> create table Oct2016 (Day int, Customer varchar(20), Purchases int, Type varchar(30));
+Import the data
+
+> select * from May2016 UNION select * from June2016 UNION select * from July2016;
+
+
+Union does not check for the data type differences.
+#Ex2: 
+> create table Aug2016 (Day int, Customer varchar(20), Purchases int, Type varchar(20));
+> create table Sept2016 (Day int, Customer varchar(20), Purchases real, Type varchar(20));
+> create table Oct2016 (Day int, Customer varchar(20), Purchases int, Type varchar(30));
+
+> INSERT INTO Aug2016(Day, Customer, Purchases, Type)
+VALUES
+    (1, 'John Doe', 500, 'Mobile'),
+    (2, 'Jane Smith', 600, 'Furniture');
+
+> INSERT INTO Sept2016(Day, Customer, Purchases, Type)
+VALUES
+    (1, 'John', 10.20, 'A'),
+    (2, 'Smith', 600.30, 'C');
+
+> INSERT INTO Oct2016(Day, Customer, Purchases, Type)
+VALUES
+    (1, 'Sharat', 100, 'ABC'),
+    (2, 'Smith', 30, 'D');
+
+> select * from Aug2016 UNION select * from Sept2016 UNION select * from Oct2016;
+
+
+In Class Task: Create 3 tables Nov2016, Dec2016, and Jan2017 with differences in the column names and experiment - Share the result that you get.
+Note: It takes the col headers of the first table
+
+
+# In MySQL - The full join option is not available. We can achieve the full join with UNION command. (Refer to the joins code)
+
+select students.name, age, courses.name, course from students left join courses on students.name = courses.name
+UNION
+select students.name, age, courses.name, course from students right join courses on students.name = courses.name;
+
+select students.name, age, courses.name, course from students left join courses on students.name = courses.name
+UNION ALL
+select students.name, age, courses.name, course from students right join courses on students.name = courses.name;
+
+_________________________________________________________________________________________
+
+# TRIGGERS
+
+show databases;
+# create database 360db;
+
+use 360db;
+show tables;
+
+CREATE TABLE student_info (  
+  stud_id int NOT NULL,
+  stud_code varchar(15) DEFAULT NULL,  
+  stud_name varchar(35) DEFAULT NULL,  
+  subject varchar(25) DEFAULT NULL,  
+  marks int DEFAULT NULL,  
+  phone varchar(15) DEFAULT NULL,  
+  PRIMARY KEY (stud_id)  
+);
+
+# Next, we will insert some records into this table and then execute the SELECT statement to see the table data as follows:
+insert into student_info values(101, 01, 'shiv', 'Maths', 50, '966644582');
+insert into student_info values(102, 02, 'shivi', 'Maths', 50, '966677582');
+
+select * from student_info;
+
+# Create a new table named "student_detail" as follows:
+CREATE TABLE student_detail (  
+  stud_id int NOT NULL,  
+  stud_code varchar(15) DEFAULT NULL,  
+  stud_name varchar(35) DEFAULT NULL,  
+  subject varchar(25) DEFAULT NULL,  
+  marks int DEFAULT NULL,  
+  phone varchar(15) DEFAULT NULL,  
+  Lasinserted Time,  
+  PRIMARY KEY (stud_id)
+);  
+
+select * from student_detail;
+
+# Next, we will use a CREATE TRIGGER statement to create an after_insert_details trigger on the student_info table.
+# This trigger will be fired after an insert operation is performed on the table.
+
+DELIMITER $$
+CREATE TRIGGER after_insert_details  
+AFTER INSERT ON student_info 
+FOR EACH ROW  
+BEGIN  
+    INSERT INTO student_detail 
+    VALUES (new.stud_id, new.stud_code, new.stud_name, new.subject, new.marks, new.phone, CURTIME());
+END $$
+DELIMITER ;
+
+select * from student_info;
+select * from student_detail;
+
+#we need to add the values then we trigger will work
+insert into student_info values(103, 031, 'Amar', 'Datascience', 80, '66644582');
+insert into student_info values(104, 032, 'Amer', 'Datascience', 90, '66644583');
+
+##At top we are instering the values then it will load in student_info as well as it will load in the student_detail tables
+select * from student_info;
+select * from student_detail;
+
+DELIMITER //
+CREATE TRIGGER before_insert_details
+BEFORE INSERT ON student_info 
+FOR EACH ROW  
+BEGIN  
+    INSERT INTO student_detail 
+    VALUES (new.stud_id, new.stud_code, new.stud_name, new.subject, new.marks, new.phone, CURTIME());
+END //
+DELIMITER ;
+
+insert into student_info values(105, 033, 'Aditya', 'Datascience', 90, '66644584');
+# This will throw error as the After trigger is active and trying to update the table.
+
+# drop the trigger
+drop trigger after_insert_details;
+
+# rerun the insert command
+insert into student_info values(105, 033, 'Aditya', 'Datascience', 90, '66644584');
+
+select * from student_detail;
+select * from student_info;
+
+

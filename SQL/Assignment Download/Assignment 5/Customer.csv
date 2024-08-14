@@ -1,0 +1,794 @@
+Customer ID,Customer Name,Segment,Age,Country,Region,City,State,Postal Code
+CG-12520,Claire Gute,Consumer,67,United States,South,Henderson,Kentucky,42420
+DV-13045,Darrin Van Huff,Corporate,31,United States,West,Los Angeles,California,90036
+SO-20335,Sean O'Donnell,Consumer,65,United States,South,Fort Lauderdale,Florida,33311
+BH-11710,Brosina Hoffman,Consumer,20,United States,West,Los Angeles,California,90032
+AA-10480,Andrew Allen,Consumer,50,United States,South,Concord,North Carolina,28027
+IM-15070,Irene Maddox,Consumer,66,United States,West,Seattle,Washington,98103
+HP-14815,Harold Pawlan,Home Office,20,United States,Central,Fort Worth,Texas,76106
+PK-19075,Pete Kriz,Consumer,46,United States,Central,Madison,Wisconsin,53711
+AG-10270,Alejandro Grove,Consumer,18,United States,West,West Jordan,Utah,84084
+ZD-21925,Zuschuss Donatelli,Consumer,66,United States,West,San Francisco,California,94109
+KB-16585,Ken Black,Corporate,67,United States,Central,Fremont,Nebraska,68025
+SF-20065,Sandra Flanagan,Consumer,41,United States,East,Philadelphia,Pennsylvania,19140
+EB-13870,Emily Burns,Consumer,34,United States,West,Orem,Utah,84057
+EH-13945,Eric Hoffmann,Consumer,21,United States,West,Los Angeles,California,90049
+TB-21520,Tracy Blumstein,Consumer,48,United States,East,Philadelphia,Pennsylvania,19140
+MA-17560,Matt Abelman,Home Office,19,United States,Central,Houston,Texas,77095
+GH-14485,Gene Hale,Corporate,28,United States,Central,Richardson,Texas,75080
+SN-20710,Steve Nguyen,Home Office,46,United States,Central,Houston,Texas,77041
+LC-16930,Linda Cazamias,Corporate,31,United States,Central,Naperville,Illinois,60540
+RA-19885,Ruben Ausman,Corporate,51,United States,West,Los Angeles,California,90049
+ES-14080,Erin Smith,Corporate,20,United States,South,Melbourne,Florida,32935
+ON-18715,Odella Nelson,Corporate,27,United States,Central,Eagan,Minnesota,55122
+PO-18865,Patrick O'Donnell,Consumer,64,United States,Central,Westland,Michigan,48185
+LH-16900,Lena Hernandez,Consumer,66,United States,East,Dover,Delaware,19901
+DP-13000,Darren Powers,Consumer,40,United States,Central,New Albany,Indiana,47150
+JM-15265,Janet Molinari,Corporate,23,United States,East,New York City,New York,10024
+TB-21055,Ted Butterfield,Consumer,34,United States,East,Troy,New York,12180
+KM-16720,Kunst Miller,Consumer,69,United States,West,Los Angeles,California,90004
+PS-18970,Paul Stevenson,Home Office,31,United States,Central,Chicago,Illinois,60610
+BS-11590,Brendan Sweed,Corporate,45,United States,West,Gilbert,Arizona,85234
+KD-16270,Karen Daniels,Consumer,59,United States,South,Springfield,Virginia,22153
+HM-14980,Henry MacAllister,Consumer,35,United States,East,New York City,New York,10009
+JE-15745,Joel Eaton,Consumer,25,United States,South,Memphis,Tennessee,38109
+KB-16600,Ken Brennan,Corporate,29,United States,Central,Houston,Texas,77041
+SC-20770,Stewart Carmichael,Corporate,18,United States,South,Decatur,Alabama,35601
+DN-13690,Duane Noonan,Consumer,42,United States,West,San Francisco,California,94122
+JC-16105,Julie Creighton,Corporate,56,United States,South,Durham,North Carolina,27707
+CS-12400,Christopher Schild,Home Office,33,United States,Central,Chicago,Illinois,60623
+PG-18895,Paul Gonzalez,Consumer,64,United States,Central,Rochester,Minnesota,55901
+GM-14455,Gary Mitchum,Home Office,64,United States,Central,Houston,Texas,77095
+JS-15685,Jim Sink,Corporate,33,United States,West,Los Angeles,California,90036
+KB-16315,Karl Braun,Consumer,70,United States,Central,Minneapolis,Minnesota,55407
+RB-19705,Roger Barcio,Home Office,63,United States,West,Portland,Oregon,97206
+PN-18775,Parhena Norris,Home Office,35,United States,East,New York City,New York,10009
+KD-16345,Katherine Ducich,Consumer,33,United States,West,San Francisco,California,94122
+ER-13855,Elpida Rittenbach,Corporate,56,United States,Central,Saint Paul,Minnesota,55106
+RB-19465,Rick Bensley,Home Office,18,United States,Central,Chicago,Illinois,60610
+GZ-14470,Gary Zandusky,Consumer,64,United States,Central,Rochester,Minnesota,55901
+LC-16870,Lena Cacioppo,Consumer,63,United States,West,Aurora,Colorado,80013
+JM-15250,Janet Martin,Consumer,62,United States,South,Charlotte,North Carolina,28205
+PA-19060,Pete Armstrong,Home Office,31,United States,Central,Orland Park,Illinois,60462
+CV-12805,Cynthia Voltz,Corporate,55,United States,East,New York City,New York,10035
+CL-12565,Clay Ludtke,Consumer,36,United States,Central,Urbandale,Iowa,50322
+RC-19960,Ryan Crowe,Consumer,34,United States,East,Columbus,Ohio,43229
+DK-13090,Dave Kipp,Consumer,24,United States,West,Seattle,Washington,98103
+GG-14650,Greg Guthrie,Corporate,51,United States,South,Bristol,Tennessee,37620
+SC-20725,Steven Cartwright,Consumer,28,United States,East,Wilmington,Delaware,19805
+AD-10180,Alan Dominguez,Home Office,52,United States,Central,Houston,Texas,77041
+PF-19165,Philip Fox,Consumer,30,United States,Central,Bloomington,Illinois,61701
+TS-21610,Troy Staebel,Consumer,33,United States,West,Phoenix,Arizona,85023
+LS-16975,Lindsay Shagiari,Home Office,66,United States,West,Los Angeles,California,90004
+DW-13585,Dorothy Wardle,Corporate,62,United States,East,Columbus,Ohio,43229
+LC-16885,Lena Creighton,Consumer,31,United States,West,Roseville,California,95661
+JD-15895,Jonathan Doherty,Corporate,57,United States,East,Philadelphia,Pennsylvania,19140
+SH-19975,Sally Hughsby,Corporate,60,United States,West,San Francisco,California,94122
+SG-20080,Sandra Glassco,Consumer,52,United States,Central,Independence,Missouri,64055
+HA-14920,Helen Andreada,Consumer,48,United States,West,Pasadena,California,91104
+MG-17680,Maureen Gastineau,Home Office,26,United States,East,Newark,Ohio,43055
+JE-16165,Justin Ellison,Corporate,49,United States,Central,Franklin,Wisconsin,53132
+TW-21025,Tamara Willingham,Home Office,61,United States,West,Scottsdale,Arizona,85254
+SP-20650,Stephanie Phelps,Corporate,18,United States,West,San Jose,California,95123
+NK-18490,Neil Knudson,Home Office,61,United States,West,Seattle,Washington,98105
+DB-13060,Dave Brooks,Consumer,50,United States,West,Seattle,Washington,98115
+NP-18670,Nora Paige,Consumer,64,United States,Central,Edmond,Oklahoma,73034
+TT-21070,Ted Trevino,Consumer,67,United States,West,Los Angeles,California,90045
+EM-13960,Eric Murdock,Consumer,46,United States,East,Philadelphia,Pennsylvania,19134
+RD-19900,Ruben Dartt,Consumer,26,United States,West,Carlsbad,New Mexico,88220
+MJ-17740,Max Jones,Consumer,40,United States,West,Seattle,Washington,98115
+BM-11140,Becky Martin,Consumer,67,United States,Central,San Antonio,Texas,78207
+CS-12130,Chad Sievert,Consumer,51,United States,West,Los Angeles,California,90004
+JB-15400,Jennifer Braxton,Corporate,39,United States,Central,Chicago,Illinois,60623
+SJ-20500,Shirley Jackson,Consumer,69,United States,Central,Houston,Texas,77036
+JK-15640,Jim Kriz,Home Office,31,United States,East,New York City,New York,10009
+DK-13150,David Kendrick,Corporate,20,United States,Central,Decatur,Illinois,62521
+RM-19675,Robert Marley,Home Office,57,United States,South,Monroe,Louisiana,71203
+SK-19990,Sally Knutson,Consumer,44,United States,East,Fairfield,Connecticut,6824
+FM-14290,Frank Merwin,Home Office,45,United States,West,Los Angeles,California,90032
+AM-10360,Alice McCarthy,Corporate,45,United States,Central,Grand Prairie,Texas,75051
+MP-17470,Mark Packer,Home Office,61,United States,East,New York City,New York,10035
+MZ-17515,Mary Zewe,Corporate,52,United States,West,Redlands,California,92374
+CB-12025,Cassandra Brandow,Consumer,43,United States,East,Hamilton,Ohio,45011
+VM-21685,Valerie Mitchum,Home Office,69,United States,East,Westfield,New Jersey,7090
+FH-14365,Fred Hopkins,Corporate,49,United States,East,Philadelphia,Pennsylvania,19120
+MB-17305,Maria Bertelson,Consumer,43,United States,East,Akron,Ohio,44312
+BS-11755,Bruce Stewart,Consumer,59,United States,West,Denver,Colorado,80219
+LC-17140,Logan Currie,Consumer,22,United States,Central,Dallas,Texas,75220
+HK-14890,Heather Kirkland,Corporate,27,United States,South,Franklin,Tennessee,37064
+LE-16810,Laurel Elliston,Consumer,62,United States,West,Whittier,California,90604
+JH-15985,Joseph Holt,Consumer,51,United States,Central,Saginaw,Michigan,48601
+MS-17980,Michael Stewart,Corporate,67,United States,Central,Dallas,Texas,75220
+VW-21775,Victoria Wilson,Corporate,62,United States,East,Medina,Ohio,44256
+JH-15910,Jonathan Howell,Consumer,40,United States,West,Los Angeles,California,90032
+JB-15925,Joni Blumstein,Consumer,25,United States,East,Dublin,Ohio,43017
+DS-13180,David Smith,Corporate,41,United States,Central,Detroit,Michigan,48227
+VD-21670,Valerie Dominguez,Consumer,69,United States,South,Columbia,Tennessee,38401
+EA-14035,Erin Ashbrook,Corporate,61,United States,South,Charlotte,North Carolina,28205
+DB-13120,David Bremer,Corporate,60,United States,West,Santa Clara,California,95051
+KL-16645,Ken Lonsdale,Consumer,43,United States,Central,Chicago,Illinois,60610
+DW-13480,Dianna Wilson,Home Office,25,United States,Central,Lakeville,Minnesota,55044
+LH-17155,Logan Haushalter,Consumer,43,United States,West,San Francisco,California,94109
+KC-16540,Kelly Collister,Consumer,39,United States,West,San Diego,California,92037
+DL-13315,Delfina Latchford,Consumer,48,United States,East,New York City,New York,10024
+DR-12880,Dan Reichenbach,Corporate,68,United States,Central,Chicago,Illinois,60623
+CC-12670,Craig Carreira,Consumer,22,United States,East,New York City,New York,10009
+Dl-13600,Dorris liebe,Corporate,68,United States,Central,Pasadena,Texas,77506
+SB-20290,Sean Braxton,Corporate,41,United States,Central,Houston,Texas,77036
+RC-19825,Roy Collins,Consumer,54,United States,Central,Chicago,Illinois,60610
+AH-10210,Alan Hwang,Consumer,58,United States,West,Brentwood,California,94513
+CB-12535,Claudia Bergmann,Corporate,63,United States,South,Chapel Hill,North Carolina,27514
+CA-12310,Christine Abelman,Corporate,68,United States,East,Cincinnati,Ohio,45231
+KH-16690,Kristen Hastings,Corporate,36,United States,West,San Francisco,California,94110
+BB-10990,Barry Blumstein,Corporate,41,United States,West,Inglewood,California,90301
+AG-10495,Andrew Gjertsen,Corporate,24,United States,East,Philadelphia,Pennsylvania,19140
+JO-15280,Jas O'Carroll,Consumer,39,United States,West,Los Angeles,California,90004
+AH-10195,Alan Haines,Corporate,67,United States,South,Tamarac,Florida,33319
+NZ-18565,Nick Zandusky,Home Office,23,United States,East,Columbus,Ohio,43229
+KL-16555,Kelly Lampkin,Corporate,60,United States,West,Colorado Springs,Colorado,80906
+AS-10225,Alan Schoenberger,Corporate,31,United States,East,New York City,New York,10024
+CR-12625,Corey Roper,Home Office,46,United States,East,Lakewood,New Jersey,8701
+SH-20395,Shahid Hopkins,Consumer,66,United States,South,Arlington,Virginia,22204
+BP-11185,Ben Peterman,Corporate,48,United States,West,Arvada,Colorado,80004
+TS-21205,Thomas Seio,Corporate,21,United States,East,Hackensack,New Jersey,7601
+AG-10525,Andy Gerbode,Corporate,69,United States,South,Saint Petersburg,Florida,33710
+SP-20860,Sung Pak,Corporate,38,United States,East,Philadelphia,Pennsylvania,19143
+NM-18445,Nathan Mautz,Home Office,21,United States,East,New York City,New York,10024
+FA-14230,Frank Atkinson,Corporate,34,United States,West,Long Beach,California,90805
+GK-14620,Grace Kelly,Corporate,32,United States,West,Hesperia,California,92345
+DJ-13510,Don Jones,Corporate,67,United States,South,Murfreesboro,Tennessee,37130
+PO-18850,Patrick O'Brill,Consumer,59,United States,East,Philadelphia,Pennsylvania,19143
+JL-15850,John Lucas,Consumer,70,United States,East,Philadelphia,Pennsylvania,19134
+DB-13615,Doug Bickford,Consumer,19,United States,West,Los Angeles,California,90045
+AC-10420,Alyssa Crouse,Corporate,69,United States,West,San Francisco,California,94122
+CC-12550,Clay Cheatham,Consumer,42,United States,West,San Francisco,California,94122
+TD-20995,Tamara Dahlen,Consumer,19,United States,East,Lowell,Massachusetts,1852
+AB-10060,Adam Bellavance,Home Office,25,United States,East,New York City,New York,10009
+JL-15505,Jeremy Lonsdale,Consumer,48,United States,East,New York City,New York,10035
+VB-21745,Victoria Brennan,Corporate,27,United States,South,Columbus,Georgia,31907
+KW-16435,Katrina Willman,Consumer,48,United States,East,New York City,New York,10009
+JD-16060,Julia Dunbar,Consumer,70,United States,West,San Francisco,California,94109
+MK-17905,Michael Kennedy,Corporate,20,United States,East,Manchester,Connecticut,6040
+GT-14755,Guy Thornton,Consumer,53,United States,Central,Harlingen,Texas,78550
+AG-10900,Arthur Gainer,Consumer,56,United States,West,Tucson,Arizona,85705
+MM-18280,Muhammed MacIntyre,Corporate,59,United States,Central,Quincy,Illinois,62301
+AR-10405,Allen Rosenblatt,Corporate,66,United States,East,Franklin,Massachusetts,2038
+RA-19915,Russell Applegate,Consumer,47,United States,Central,Houston,Texas,77095
+AS-10285,Alejandro Savely,Corporate,53,United States,West,San Francisco,California,94109
+LA-16780,Laura Armstrong,Corporate,59,United States,Central,Taylor,Michigan,48180
+DO-13435,Denny Ordway,Consumer,25,United States,South,Pembroke Pines,Florida,33024
+DK-13225,Dean Katz,Corporate,36,United States,East,Philadelphia,Pennsylvania,19140
+NG-18430,Nathan Gelder,Consumer,50,United States,East,Cincinnati,Ohio,45231
+MV-18190,Mike Vittorini,Consumer,66,United States,East,New York City,New York,10009
+JG-15115,Jack Garza,Consumer,63,United States,West,Des Moines,Washington,98198
+BP-11095,Bart Pistole,Corporate,30,United States,Central,Peoria,Illinois,61604
+VP-21730,Victor Preis,Home Office,35,United States,West,Las Vegas,Nevada,89115
+SS-20140,Saphhira Shifley,Corporate,33,United States,East,Warwick,Rhode Island,2886
+AG-10675,Anna Gayman,Consumer,69,United States,Central,Houston,Texas,77036
+LF-17185,Luke Foster,Consumer,36,United States,South,Miami,Florida,33180
+RF-19840,Roy Franzosisch,Consumer,57,United States,East,New York City,New York,10024
+KH-16510,Keith Herrera,Consumer,27,United States,West,San Francisco,California,94110
+KC-16675,Kimberly Carter,Corporate,31,United States,West,Seattle,Washington,98105
+CJ-12010,Caroline Jumper,Consumer,64,United States,West,Huntington Beach,California,92646
+PB-19150,Philip Brown,Consumer,30,United States,West,Los Angeles,California,90004
+MP-17965,Michael Paige,Corporate,18,United States,East,Lawrence,Massachusetts,1841
+NF-18385,Natalie Fritzler,Consumer,23,United States,South,Jackson,Mississippi,39212
+SD-20485,Shirley Daniels,Home Office,70,United States,East,New Rochelle,New York,10801
+KH-16630,Ken Heidel,Corporate,34,United States,Central,San Antonio,Texas,78207
+RB-19795,Ross Baird,Home Office,60,United States,South,Gastonia,North Carolina,28052
+MK-18160,Mike Kennedy,Consumer,22,United States,South,Jacksonville,Florida,32216
+PO-19180,Philisse Overcash,Home Office,46,United States,Central,Chicago,Illinois,60623
+BB-11545,Brenda Bowman,Corporate,60,United States,Central,Houston,Texas,77070
+TB-21595,Troy Blackwell,Consumer,50,United States,Central,Columbus,Indiana,47201
+RB-19360,Raymond Buch,Consumer,70,United States,East,Auburn,New York,13021
+EB-13705,Ed Braxton,Corporate,41,United States,East,Akron,Ohio,44312
+SC-20095,Sanjit Chand,Consumer,27,United States,West,Concord,California,94521
+TN-21040,Tanja Norvell,Home Office,37,United States,West,Phoenix,Arizona,85023
+JS-15940,Joni Sundaresam,Home Office,26,United States,Central,Park Ridge,Illinois,60068
+MH-17785,Maya Herman,Corporate,51,United States,East,Lindenhurst,New York,11757
+JP-15520,Jeremy Pistek,Consumer,54,United States,West,San Francisco,California,94110
+JE-15475,Jeremy Ellison,Consumer,30,United States,East,Troy,New York,12180
+JG-15805,John Grady,Corporate,26,United States,East,New York City,New York,10024
+XP-21865,Xylona Preis,Consumer,32,United States,West,San Diego,California,92024
+EM-14065,Erin Mull,Consumer,48,United States,East,New York City,New York,10024
+MT-18070,Michelle Tran,Home Office,69,United States,West,Los Angeles,California,90045
+SA-20830,Sue Ann Reed,Consumer,34,United States,Central,Chicago,Illinois,60610
+CW-11905,Carl Weiss,Home Office,31,United States,Central,Huntsville,Texas,77340
+AJ-10960,Astrea Jones,Consumer,30,United States,East,Rochester,New York,14609
+SS-20590,Sonia Sunley,Consumer,51,United States,West,Seattle,Washington,98115
+RO-19780,Rose O'Brian,Consumer,25,United States,South,Memphis,Tennessee,38109
+MD-17350,Maribeth Dona,Consumer,31,United States,South,Fayetteville,Arkansas,72701
+MY-17380,Maribeth Yedwab,Corporate,70,United States,West,Parker,Colorado,80134
+CM-12385,Christopher Martinez,Consumer,19,United States,South,Atlanta,Georgia,30318
+LS-17245,Lynn Smith,Consumer,59,United States,Central,Gladstone,Missouri,64118
+BN-11515,Bradley Nguyen,Consumer,63,United States,West,Los Angeles,California,90049
+DB-13210,Dean Braden,Consumer,41,United States,Central,Houston,Texas,77041
+MC-17605,Matt Connell,Corporate,49,United States,Central,Detroit,Michigan,48234
+BD-11605,Brian Dahlen,Consumer,40,United States,East,Lawrence,Massachusetts,1841
+PH-18790,Patricia Hirasaki,Home Office,55,United States,South,Lakeland,Florida,33801
+MG-18145,Mike Gockenbach,Consumer,51,United States,East,Philadelphia,Pennsylvania,19134
+KB-16240,Karen Bern,Corporate,42,United States,West,Los Angeles,California,90036
+JC-15340,Jasper Cacioppo,Consumer,39,United States,West,Los Angeles,California,90032
+RL-19615,Rob Lucas,Consumer,53,United States,South,Montgomery,Alabama,36116
+AA-10375,Allen Armold,Consumer,22,United States,West,Mesa,Arizona,85204
+EP-13915,Emily Phan,Consumer,38,United States,Central,Chicago,Illinois,60653
+DK-12985,Darren Koutras,Consumer,58,United States,South,Henderson,Kentucky,42420
+BD-11500,Bradley Drucker,Consumer,47,United States,Central,Green Bay,Wisconsin,54302
+LM-17065,Liz MacKendrick,Consumer,32,United States,East,Springfield,Ohio,45503
+AS-10135,Adrian Shami,Home Office,65,United States,East,New York City,New York,10035
+BD-11320,Bill Donatelli,Consumer,68,United States,West,San Francisco,California,94110
+GT-14710,Greg Tran,Consumer,67,United States,Central,Houston,Texas,77070
+AJ-10945,Ashley Jarboe,Consumer,62,United States,South,Wilmington,North Carolina,28403
+OT-18730,Olvera Toch,Consumer,39,United States,West,Los Angeles,California,90045
+LP-17080,Liz Pelletier,Consumer,22,United States,West,San Francisco,California,94110
+CA-12775,Cynthia Arntzen,Consumer,57,United States,South,Tampa,Florida,33614
+JF-15490,Jeremy Farry,Consumer,38,United States,West,Seattle,Washington,98105
+FP-14320,Frank Preis,Consumer,20,United States,West,Los Angeles,California,90008
+EB-13840,Ellis Ballard,Corporate,25,United States,West,Seattle,Washington,98105
+JF-15415,Jennifer Ferguson,Consumer,40,United States,East,New York City,New York,10024
+SF-20200,Sarah Foster,Consumer,38,United States,West,Marysville,Washington,98270
+TG-21640,Trudy Glocke,Consumer,41,United States,West,Long Beach,California,90805
+CS-11950,Carlos Soltero,Consumer,18,United States,Central,Chicago,Illinois,60610
+CC-12145,Charles Crestani,Consumer,21,United States,West,Los Angeles,California,90004
+DV-13465,Dianna Vittorini,Consumer,60,United States,West,Denver,Colorado,80219
+BD-11725,Bruce Degenhardt,Consumer,36,United States,South,Richmond,Kentucky,40475
+ZC-21910,Zuschuss Carroll,Consumer,61,United States,West,Salem,Oregon,97301
+MS-17830,Melanie Seite,Consumer,61,United States,Central,Laredo,Texas,78041
+LR-16915,Lena Radford,Consumer,35,United States,West,San Diego,California,92024
+TP-21130,Theone Pippenger,Consumer,64,United States,East,Philadelphia,Pennsylvania,19134
+CK-12205,Chloris Kastensmidt,Consumer,61,United States,East,Philadelphia,Pennsylvania,19120
+AS-10240,Alan Shonely,Consumer,68,United States,South,Tampa,Florida,33614
+AR-10510,Andrew Roberts,Consumer,58,United States,East,Philadelphia,Pennsylvania,19134
+NB-18655,Nona Balk,Corporate,42,United States,Central,Dallas,Texas,75217
+GD-14590,Giulietta Dortch,Corporate,62,United States,East,Philadelphia,Pennsylvania,19143
+CK-12595,Clytie Kelty,Consumer,60,United States,East,Grove City,Ohio,43123
+NG-18355,Nat Gilpin,Corporate,57,United States,East,New York City,New York,10011
+CA-12265,Christina Anderson,Consumer,49,United States,Central,Chicago,Illinois,60610
+SF-20965,Sylvia Foulston,Corporate,64,United States,Central,Dearborn,Michigan,48126
+MO-17800,Meg O'Connel,Home Office,22,United States,East,New York City,New York,10009
+AT-10735,Annie Thurman,Consumer,30,United States,West,Seattle,Washington,98115
+FM-14380,Fred McMath,Consumer,30,United States,West,Aurora,Colorado,80013
+DJ-13420,Denny Joy,Corporate,21,United States,South,Warner Robins,Georgia,31088
+ME-17725,Max Engle,Consumer,50,United States,West,Aurora,Colorado,80013
+JD-16150,Justin Deggeller,Corporate,37,United States,Central,Minneapolis,Minnesota,55407
+JL-15835,John Lee,Consumer,57,United States,West,Mission Viejo,California,92691
+SC-20305,Sean Christensen,Consumer,30,United States,Central,Rochester Hills,Michigan,48307
+CC-12430,Chuck Clark,Home Office,66,United States,Central,Columbus,Indiana,47201
+AR-10825,Anthony Rawles,Corporate,39,United States,West,Vancouver,Washington,98661
+SR-20740,Steven Roelle,Home Office,19,United States,East,New York City,New York,10024
+CR-12730,Craig Reiter,Consumer,25,United States,East,Columbus,Ohio,43229
+EH-14125,Eugene Hildebrand,Home Office,41,United States,Central,Aurora,Illinois,60505
+SP-20545,Sibella Parks,Corporate,68,United States,East,New York City,New York,10011
+TH-21235,Tiffany House,Corporate,28,United States,Central,Dallas,Texas,75081
+RP-19390,Resi Polking,Consumer,44,United States,East,Cleveland,Ohio,44105
+RB-19570,Rob Beeghly,Consumer,57,United States,Central,Columbus,Indiana,47201
+CD-11980,Carol Darley,Consumer,61,United States,Central,Tyler,Texas,75701
+DJ-13630,Doug Jacobs,Consumer,41,United States,East,New York City,New York,10024
+GT-14635,Grant Thornton,Corporate,19,United States,South,Burlington,North Carolina,27217
+MC-17845,Michael Chen,Consumer,50,United States,South,Jackson,Mississippi,39212
+RA-19285,Ralph Arnett,Consumer,45,United States,East,New York City,New York,10035
+NP-18325,Naresj Patel,Consumer,70,United States,South,Waynesboro,Virginia,22980
+AB-10165,Alan Barnes,Consumer,22,United States,West,Los Angeles,California,90036
+JO-15550,Jesus Ocampo,Home Office,58,United States,East,Chester,Pennsylvania,19013
+JK-15370,Jay Kimmel,Consumer,27,United States,West,Long Beach,California,90805
+BN-11470,Brad Norvell,Corporate,20,United States,South,Cary,North Carolina,27511
+DP-13165,David Philippe,Consumer,50,United States,East,New York City,New York,10035
+TH-21550,Tracy Hopkins,Home Office,48,United States,East,New York City,New York,10035
+AP-10915,Arthur Prichep,Consumer,61,United States,South,Palm Coast,Florida,32137
+RS-19765,Roland Schwarz,Corporate,45,United States,East,Mount Vernon,New York,10550
+SV-20365,Seth Vernon,Consumer,22,United States,East,Dover,Delaware,19901
+CK-12325,Christine Kargatis,Home Office,53,United States,West,Orem,Utah,84057
+RD-19810,Ross DeVincentis,Home Office,35,United States,West,Los Angeles,California,90045
+MR-17545,Mathew Reese,Home Office,37,United States,East,Philadelphia,Pennsylvania,19140
+SC-20695,Steve Chapman,Corporate,46,United States,South,Hialeah,Florida,33012
+JF-15355,Jay Fein,Consumer,70,United States,Central,Austin,Texas,78745
+EG-13900,Emily Grady,Consumer,60,United States,East,Oceanside,New York,11572
+DS-13030,Darrin Sayre,Home Office,62,United States,West,Seattle,Washington,98115
+PO-19195,Phillina Ober,Home Office,45,United States,Central,Naperville,Illinois,60540
+SS-20875,Sung Shariari,Consumer,18,United States,Central,Dallas,Texas,75220
+PB-19105,Peter Buhler,Consumer,32,United States,Central,Evanston,Illinois,60201
+RF-19735,Roland Fjeld,Consumer,38,United States,Central,Trenton,Michigan,48183
+YC-21895,Yoseph Carroll,Corporate,42,United States,West,San Francisco,California,94110
+DC-13285,Debra Catini,Consumer,48,United States,Central,Cottage Grove,Minnesota,55016
+CP-12340,Christine Phan,Corporate,38,United States,East,New York City,New York,10009
+BF-11020,Barry Franzosisch,Corporate,67,United States,Central,Green Bay,Wisconsin,54302
+LH-17020,Lisa Hazard,Consumer,60,United States,East,Columbus,Ohio,43229
+CS-12250,Chris Selesnick,Corporate,59,United States,South,Bossier City,Louisiana,71111
+AJ-10795,Anthony Johnson,Corporate,27,United States,South,Saint Petersburg,Florida,33710
+BV-11245,Benjamin Venier,Corporate,46,United States,Central,Des Moines,Iowa,50315
+DL-12865,Dan Lawera,Consumer,26,United States,East,Cincinnati,Ohio,45231
+BM-11785,Bryan Mills,Consumer,31,United States,East,Columbus,Ohio,43229
+LT-17110,Liz Thompson,Consumer,51,United States,West,Lancaster,California,93534
+JK-15730,Joe Kamberova,Consumer,69,United States,South,Asheville,North Carolina,28806
+ES-14020,Erica Smith,Consumer,47,United States,West,San Francisco,California,94110
+RH-19495,Rick Hansen,Consumer,19,United States,Central,Rochester,Minnesota,55901
+CD-11920,Carlos Daly,Consumer,51,United States,West,Lake Elsinore,California,92530
+HW-14935,Helen Wasserman,Corporate,55,United States,West,San Diego,California,92105
+MC-18130,Mike Caudle,Corporate,59,United States,South,Monroe,Louisiana,71203
+GM-14440,Gary McGarr,Consumer,19,United States,West,San Francisco,California,94122
+PJ-19015,Pauline Johnson,Consumer,48,United States,West,Santa Ana,California,92704
+BW-11110,Bart Watters,Corporate,50,United States,Central,Milwaukee,Wisconsin,53209
+TR-21325,Toby Ritter,Consumer,45,United States,East,Belleville,New Jersey,7109
+PG-18820,Patrick Gardner,Consumer,38,United States,West,San Francisco,California,94110
+JL-15175,James Lanier,Home Office,25,United States,South,Columbia,Tennessee,38401
+BM-11650,Brian Moss,Corporate,48,United States,East,New York City,New York,10035
+EM-14095,Eudokia Martin,Corporate,56,United States,West,Los Angeles,California,90036
+AF-10885,Art Foster,Consumer,40,United States,South,Louisville,Kentucky,40214
+GA-14725,Guy Armstrong,Consumer,32,United States,East,Lorain,Ohio,44052
+CK-12760,Cyma Kinney,Corporate,18,United States,East,Linden,New Jersey,7036
+DP-13105,Dave Poirier,Corporate,66,United States,West,Salinas,California,93905
+BK-11260,Berenike Kampe,Consumer,37,United States,East,New York City,New York,10035
+SJ-20125,Sanjit Jacobs,Home Office,38,United States,East,New Brunswick,New Jersey,8901
+CM-12445,Chuck Magee,Consumer,27,United States,West,San Francisco,California,94122
+AJ-10780,Anthony Jacobs,Corporate,47,United States,South,Springfield,Virginia,22153
+LS-16945,Linda Southworth,Corporate,21,United States,East,Philadelphia,Pennsylvania,19140
+GP-14740,Guy Phonely,Corporate,28,United States,East,Lancaster,Pennsylvania,17602
+PK-18910,Paul Knutson,Home Office,42,United States,East,Philadelphia,Pennsylvania,19143
+SM-20005,Sally Matthias,Consumer,51,United States,East,New York City,New York,10009
+AG-10765,Anthony Garverick,Home Office,40,United States,East,Philadelphia,Pennsylvania,19120
+PM-19135,Peter McVee,Home Office,65,United States,Central,Detroit,Michigan,48227
+LL-16840,Lauren Leatherbury,Consumer,29,United States,East,Rochester,New York,14609
+JS-15595,Jill Stevenson,Corporate,65,United States,West,Los Angeles,California,90045
+EL-13735,Ed Ludwig,Home Office,42,United States,East,Columbia,Maryland,21044
+PC-18745,Pamela Coakley,Corporate,25,United States,West,San Francisco,California,94122
+HL-15040,Hunter Lopez,Consumer,65,United States,Central,Houston,Texas,77095
+MS-17365,Maribeth Schnelling,Consumer,55,United States,Central,Detroit,Michigan,48227
+GB-14530,George Bell,Corporate,41,United States,East,Auburn,New York,13021
+JR-16210,Justin Ritter,Corporate,68,United States,East,Springfield,Ohio,45503
+BE-11335,Bill Eplett,Home Office,20,United States,Central,Jackson,Michigan,49201
+SC-20050,Sample Company A,Home Office,38,United States,East,Norwich,Connecticut,6360
+RW-19630,Rob Williams,Corporate,23,United States,Central,Dallas,Texas,75220
+SE-20110,Sanjit Engle,Consumer,28,United States,East,New York City,New York,10009
+AH-10075,Adam Hart,Corporate,21,United States,East,New York City,New York,10011
+JM-15535,Jessica Myrick,Consumer,36,United States,East,Philadelphia,Pennsylvania,19143
+JJ-15760,Joel Jenkins,Home Office,59,United States,South,Springfield,Virginia,22153
+RK-19300,Ralph Kennedy,Consumer,29,United States,East,Philadelphia,Pennsylvania,19140
+CG-12040,Catherine Glotzbach,Home Office,27,United States,East,Philadelphia,Pennsylvania,19120
+RP-19270,Rachel Payne,Corporate,47,United States,West,Riverside,California,92503
+KC-16255,Karen Carlisle,Corporate,23,United States,West,San Francisco,California,94110
+KH-16360,Katherine Hughes,Consumer,69,United States,East,Philadelphia,Pennsylvania,19143
+GH-14665,Greg Hansen,Consumer,67,United States,Central,Round Rock,Texas,78664
+SW-20275,Scott Williamson,Consumer,35,United States,South,Jackson,Mississippi,39212
+JA-15970,Joseph Airdo,Consumer,56,United States,West,Phoenix,Arizona,85023
+DL-12925,Daniel Lacy,Consumer,23,United States,West,Oceanside,California,92054
+LW-16990,Lindsay Williams,Corporate,58,United States,West,San Francisco,California,94110
+TB-21190,Thomas Brumley,Home Office,29,United States,South,Fayetteville,Arkansas,72701
+BS-11800,Bryan Spruell,Home Office,53,United States,East,New York City,New York,10011
+RW-19690,Robert Waldorf,Consumer,29,United States,South,Wilmington,North Carolina,28403
+TZ-21580,Tracy Zic,Consumer,65,United States,West,Louisville,Colorado,80027
+AS-10630,Ann Steele,Home Office,54,United States,Central,Pasadena,Texas,77506
+TS-21340,Toby Swindell,Consumer,67,United States,Central,Houston,Texas,77041
+SL-20155,Sara Luxemburg,Home Office,55,United States,South,Jacksonville,Florida,32216
+MW-18235,Mitch Willingham,Corporate,30,United States,South,Virginia Beach,Virginia,23464
+RD-19585,Rob Dowd,Consumer,60,United States,South,Henderson,Kentucky,42420
+RA-19945,Ryan Akin,Consumer,39,United States,West,Murrieta,California,92563
+MT-17815,Meg Tillman,Consumer,58,United States,West,Scottsdale,Arizona,85254
+VG-21790,Vivek Gonzalez,Consumer,44,United States,West,San Diego,California,92037
+JS-15880,John Stevenson,Consumer,60,United States,West,Seattle,Washington,98103
+KM-16225,Kalyca Meade,Corporate,57,United States,East,New York City,New York,10011
+HR-14770,Hallie Redmond,Home Office,67,United States,West,Los Angeles,California,90045
+DE-13255,Deanra Eno,Home Office,42,United States,East,Springfield,Ohio,45503
+AG-10390,Allen Goldenen,Consumer,47,United States,East,Cincinnati,Ohio,45231
+JJ-15445,Jennifer Jackson,Consumer,47,United States,West,Los Angeles,California,90004
+JH-15430,Jennifer Halladay,Consumer,48,United States,South,Burlington,North Carolina,27217
+RD-19660,Robert Dilbeck,Home Office,53,United States,Central,Saint Peters,Missouri,63376
+MO-17500,Mary O'Rourke,Consumer,25,United States,East,New York City,New York,10035
+NS-18640,Noel Staavos,Corporate,37,United States,Central,Chicago,Illinois,60610
+DG-13300,Deirdre Greer,Corporate,60,United States,East,Philadelphia,Pennsylvania,19134
+NF-18595,Nicole Fjeld,Home Office,42,United States,East,New York City,New York,10009
+MG-17650,Matthew Grinstein,Home Office,53,United States,East,Philadelphia,Pennsylvania,19143
+TS-21160,Theresa Swint,Corporate,27,United States,East,Toledo,Ohio,43615
+BD-11620,Brian DeCherney,Consumer,46,United States,West,San Francisco,California,94122
+CM-12160,Charles McCrossin,Consumer,58,United States,Central,Brownsville,Texas,78521
+SN-20560,Skye Norling,Home Office,65,United States,West,Los Angeles,California,90008
+EH-14005,Erica Hernandez,Home Office,38,United States,West,Denver,Colorado,80219
+FO-14305,Frank Olsen,Consumer,22,United States,East,New York City,New York,10035
+MS-17710,Maurice Satty,Consumer,46,United States,West,Mesa,Arizona,85204
+CC-12100,Chad Cunningham,Home Office,30,United States,Central,Columbus,Indiana,47201
+DW-13540,Don Weiss,Consumer,60,United States,West,Seattle,Washington,98105
+BT-11395,Bill Tyler,Corporate,32,United States,Central,Detroit,Michigan,48227
+CY-12745,Craig Yedwab,Corporate,36,United States,West,Oakland,California,94601
+BT-11485,Brad Thomas,Home Office,66,United States,East,Clinton,Maryland,20735
+PS-19045,Penelope Sewall,Home Office,23,United States,South,Charlotte,North Carolina,28205
+PV-18985,Paul Van Hugh,Home Office,64,United States,West,San Francisco,California,94122
+NM-18520,Neoma Murray,Consumer,45,United States,West,Riverside,California,92503
+DL-13495,Dionis Lloyd,Corporate,52,United States,West,San Francisco,California,94110
+CS-12355,Christine Sundaresam,Consumer,63,United States,South,Roswell,Georgia,30076
+FH-14275,Frank Hawley,Corporate,26,United States,Central,La Porte,Indiana,46350
+NC-18340,Nat Carroll,Consumer,45,United States,Central,Lansing,Michigan,48911
+AA-10315,Alex Avila,Consumer,66,United States,Central,Minneapolis,Minnesota,55407
+LT-16765,Larry Tron,Consumer,42,United States,West,Escondido,California,92025
+AP-10720,Anne Pryor,Home Office,18,United States,East,New York City,New York,10035
+PM-18940,Paul MacIntyre,Consumer,41,United States,Central,Jackson,Michigan,49201
+AT-10435,Alyssa Tate,Home Office,19,United States,West,Los Angeles,California,90004
+CA-12055,Cathy Armstrong,Home Office,67,United States,Central,Houston,Texas,77070
+HR-14830,Harold Ryan,Corporate,69,United States,West,Seattle,Washington,98103
+BT-11530,Bradley Talbott,Home Office,34,United States,West,Los Angeles,California,90036
+LH-16750,Larry Hughes,Consumer,37,United States,South,Charlotte,North Carolina,28205
+SW-20755,Steven Ward,Corporate,57,United States,East,New York City,New York,10009
+SP-20620,Stefania Perrino,Corporate,32,United States,East,Philadelphia,Pennsylvania,19134
+BF-11170,Ben Ferrer,Home Office,19,United States,West,Los Angeles,California,90036
+KT-16480,Kean Thornton,Consumer,51,United States,East,Buffalo,New York,14215
+BG-11695,Brooke Gillingham,Corporate,46,United States,East,Cincinnati,Ohio,45231
+GM-14680,Greg Matthias,Consumer,69,United States,West,Seattle,Washington,98105
+EJ-14155,Eva Jacobs,Consumer,22,United States,South,Gulfport,Mississippi,39503
+NP-18700,Nora Preis,Consumer,32,United States,West,Fresno,California,93727
+MH-18115,Mick Hernandez,Home Office,25,United States,East,Chester,Pennsylvania,19013
+JR-15700,Jocasta Rupert,Consumer,69,United States,South,Jacksonville,Florida,32216
+SM-20950,Suzanne McNair,Corporate,54,United States,South,Greenville,North Carolina,27834
+CC-12220,Chris Cortes,Consumer,18,United States,Central,La Porte,Indiana,46350
+PF-19225,Phillip Flathmann,Consumer,49,United States,West,San Francisco,California,94122
+DC-12850,Dan Campbell,Consumer,50,United States,South,Florence,Alabama,35630
+BD-11770,Bryan Davis,Consumer,50,United States,Central,Houston,Texas,77070
+GM-14500,Gene McClure,Consumer,41,United States,East,Providence,Rhode Island,2908
+TB-21355,Todd Boyes,Corporate,53,United States,East,New York City,New York,10009
+JH-16180,Justin Hirsh,Consumer,57,United States,West,Pueblo,Colorado,81001
+EB-13975,Erica Bern,Corporate,53,United States,West,Fairfield,California,94533
+QJ-19255,Quincy Jones,Corporate,48,United States,Central,Saint Paul,Minnesota,55106
+TC-21535,Tracy Collins,Home Office,57,United States,South,Arlington,Virginia,22204
+CS-12460,Chuck Sachs,Consumer,44,United States,South,Columbus,Georgia,31907
+HG-14965,Henry Goldwyn,Corporate,32,United States,West,Los Angeles,California,90032
+LW-16825,Laurel Workman,Corporate,64,United States,South,Deltona,Florida,32725
+MC-17575,Matt Collins,Consumer,25,United States,East,Cincinnati,Ohio,45231
+LP-17095,Liz Preis,Consumer,58,United States,South,Murray,Kentucky,42071
+EB-14170,Evan Bailliet,Consumer,64,United States,South,Wilmington,North Carolina,28403
+GZ-14545,George Zrebassa,Corporate,56,United States,East,Lawrence,Massachusetts,1841
+CP-12085,Cathy Prescott,Corporate,62,United States,East,Norwich,Connecticut,6360
+FG-14260,Frank Gastineau,Home Office,67,United States,West,San Francisco,California,94110
+LD-17005,Lisa DeCherney,Consumer,65,United States,West,San Francisco,California,94109
+AB-10255,Alejandro Ballentine,Home Office,34,United States,East,Lorain,Ohio,44052
+MN-17935,Michael Nguyen,Consumer,41,United States,Central,Dallas,Texas,75220
+JR-15670,Jim Radford,Consumer,18,United States,East,Middletown,Connecticut,6457
+JF-15190,Jamie Frazer,Consumer,26,United States,West,Los Angeles,California,90008
+CM-12115,Chad McGuire,Consumer,50,United States,East,New York City,New York,10011
+AS-10045,Aaron Smayling,Corporate,42,United States,South,Jacksonville,North Carolina,28540
+BP-11290,Beth Paige,Consumer,26,United States,Central,Evanston,Illinois,60201
+ND-18370,Natalie DeCherney,Consumer,41,United States,South,Louisville,Kentucky,40214
+LB-16735,Larry Blacks,Consumer,65,United States,Central,Fort Worth,Texas,76106
+KT-16465,Kean Takahito,Consumer,24,United States,West,Los Angeles,California,90049
+HM-14860,Harry Marie,Corporate,64,United States,East,Philadelphia,Pennsylvania,19120
+AB-10600,Ann Blume,Corporate,34,United States,West,Tucson,Arizona,85705
+SZ-20035,Sam Zeldin,Home Office,39,United States,West,Pico Rivera,California,90660
+MG-17890,Michael Granlund,Home Office,31,United States,East,Clinton,Maryland,20735
+JK-16120,Julie Kriz,Home Office,67,United States,Central,Aurora,Illinois,60505
+PP-18955,Paul Prost,Home Office,44,United States,South,Smyrna,Georgia,30080
+YS-21880,Yana Sorensen,Corporate,31,United States,South,Burlington,North Carolina,27217
+KM-16375,Katherine Murray,Home Office,70,United States,South,Salem,Virginia,24153
+AB-10105,Adrian Barton,Consumer,63,United States,West,Phoenix,Arizona,85023
+HA-14905,Helen Abelman,Consumer,58,United States,East,New York City,New York,10024
+BT-11305,Beth Thompson,Home Office,38,United States,West,Costa Mesa,California,92627
+SV-20815,Stuart Van,Corporate,42,United States,Central,Houston,Texas,77041
+RW-19540,Rick Wilson,Corporate,52,United States,West,Mesa,Arizona,85204
+DK-12835,Damala Kotsonis,Corporate,57,United States,West,Salinas,California,93905
+ST-20530,Shui Tom,Consumer,26,United States,East,Parma,Ohio,44134
+MM-17920,Michael Moore,Consumer,41,United States,West,San Francisco,California,94110
+PW-19030,Pauline Webber,Corporate,47,United States,South,Richmond,Kentucky,40475
+SC-20440,Shaun Chance,Corporate,28,United States,West,Aurora,Colorado,80013
+TS-21085,Thais Sissman,Consumer,21,United States,West,Phoenix,Arizona,85023
+MC-17425,Mark Cousins,Corporate,50,United States,South,Mobile,Alabama,36608
+ME-17320,Maria Etezadi,Home Office,48,United States,South,Columbus,Georgia,31907
+NH-18610,Nicole Hansen,Corporate,44,United States,Central,Irving,Texas,75061
+MB-18085,Mick Brown,Consumer,54,United States,East,Vineland,New Jersey,8360
+KD-16495,Keith Dawkins,Corporate,68,United States,East,New York City,New York,10009
+KN-16390,Katherine Nockton,Corporate,43,United States,West,Los Angeles,California,90004
+NP-18685,Nora Pelletier,Home Office,42,United States,East,Niagara Falls,New York,14304
+CS-12505,Cindy Stewart,Consumer,41,United States,South,Thomasville,North Carolina,27360
+MS-17770,Maxwell Schwartz,Consumer,47,United States,East,New York City,New York,10035
+CM-12655,Corinna Mitchell,Home Office,33,United States,West,Los Angeles,California,90008
+Co-12640,Corey-Lock,Consumer,55,United States,East,Philadelphia,Pennsylvania,19143
+TS-21370,Todd Sumrall,Corporate,62,United States,East,New York City,New York,10035
+JW-15220,Jane Waco,Corporate,24,United States,West,Vancouver,Washington,98661
+JD-15790,John Dryer,Consumer,26,United States,Central,Coppell,Texas,75019
+PC-19000,Pauline Chand,Home Office,49,United States,West,Los Angeles,California,90004
+AR-10540,Andy Reiter,Consumer,48,United States,East,New York City,New York,10024
+AI-10855,Arianne Irving,Consumer,35,United States,East,Philadelphia,Pennsylvania,19120
+TB-21400,Tom Boeckenhauer,Consumer,37,United States,West,Seattle,Washington,98105
+PL-18925,Paul Lucas,Home Office,20,United States,Central,Chicago,Illinois,60610
+GH-14425,Gary Hwang,Consumer,63,United States,West,Tucson,Arizona,85705
+MP-18175,Mike Pelletier,Home Office,34,United States,West,Laguna Niguel,California,92677
+JM-15655,Jim Mitchum,Corporate,28,United States,East,Bridgeton,New Jersey,8302
+CL-11890,Carl Ludwig,Consumer,63,United States,East,Everett,Massachusetts,2149
+DB-13270,Deborah Brumfield,Home Office,24,United States,West,San Diego,California,92024
+IG-15085,Ivan Gibson,Consumer,63,United States,West,San Diego,California,92024
+BO-11425,Bobby Odegard,Consumer,63,United States,South,Richmond,Kentucky,40475
+AB-10150,Aimee Bixby,Consumer,65,United States,East,Long Beach,New York,11561
+JW-16075,Julia West,Consumer,25,United States,East,Philadelphia,Pennsylvania,19140
+EB-13750,Edward Becker,Corporate,20,United States,West,Seattle,Washington,98103
+SG-20470,Sheri Gordon,Consumer,44,United States,East,New York City,New York,10011
+CM-12190,Charlotte Melton,Consumer,66,United States,East,Philadelphia,Pennsylvania,19134
+AW-10840,Anthony Witt,Consumer,37,United States,Central,Allen,Texas,75002
+MC-18100,Mick Crebagga,Consumer,65,United States,Central,El Paso,Texas,79907
+TT-21460,Tonja Turnell,Home Office,22,United States,Central,Aurora,Illinois,60505
+VG-21805,Vivek Grady,Corporate,54,United States,South,Virginia Beach,Virginia,23464
+MY-18295,Muhammed Yedwab,Corporate,25,United States,Central,Grapevine,Texas,76051
+RD-19480,Rick Duston,Consumer,47,United States,West,Olympia,Washington,98502
+DP-13390,Dennis Pardue,Home Office,44,United States,Central,Peoria,Illinois,61604
+ML-17395,Marina Lichtenstein,Corporate,44,United States,West,Los Angeles,California,90008
+JC-15385,Jenna Caffey,Consumer,35,United States,West,Kent,Washington,98031
+JG-15160,James Galang,Consumer,37,United States,West,Los Angeles,California,90049
+MC-17275,Marc Crier,Consumer,24,United States,South,Lafayette,Louisiana,70506
+NW-18400,Natalie Webber,Consumer,29,United States,West,Tigard,Oregon,97224
+TB-21280,Toby Braunhardt,Consumer,24,United States,East,Washington,District of Columbia,20016
+BS-11380,Bill Stewart,Corporate,53,United States,Central,Skokie,Illinois,60076
+HH-15010,Hilary Holden,Corporate,58,United States,West,San Francisco,California,94110
+CD-12280,Christina DeMoss,Consumer,42,United States,West,Seattle,Washington,98105
+TH-21100,Thea Hendricks,Consumer,21,United States,West,Los Angeles,California,90045
+MM-18055,Michelle Moray,Consumer,19,United States,West,Seattle,Washington,98115
+NS-18505,Neola Schneider,Consumer,54,United States,Central,Dallas,Texas,75217
+RB-19645,Robert Barroso,Corporate,40,United States,West,North Las Vegas,Nevada,89031
+SW-20455,Shaun Weien,Consumer,21,United States,South,Suffolk,Virginia,23434
+EB-13930,Eric Barreto,Consumer,63,United States,West,San Francisco,California,94110
+PS-18760,Pamela Stobb,Consumer,36,United States,West,Los Angeles,California,90008
+HF-14995,Herbert Flentye,Consumer,19,United States,Central,Indianapolis,Indiana,46203
+HZ-14950,Henia Zydlo,Consumer,32,United States,East,Columbus,Ohio,43229
+CD-12790,Cynthia Delaney,Home Office,70,United States,West,San Diego,California,92037
+JK-15205,Jamie Kunitz,Consumer,48,United States,West,San Francisco,California,94122
+FM-14215,Filia McAdams,Corporate,62,United States,East,Dublin,Ohio,43017
+ED-13885,Emily Ducich,Home Office,28,United States,West,San Diego,California,92037
+DA-13450,Dianna Arnett,Home Office,38,United States,Central,Houston,Texas,77095
+JW-15955,Joni Wasserman,Consumer,45,United States,West,Oakland,California,94601
+RM-19375,Raymond Messe,Consumer,39,United States,Central,Houston,Texas,77095
+ML-17755,Max Ludwig,Home Office,22,United States,South,Suffolk,Virginia,23434
+CC-12685,Craig Carroll,Consumer,59,United States,South,Greensboro,North Carolina,27405
+JE-15610,Jim Epp,Corporate,38,United States,Central,Milwaukee,Wisconsin,53209
+RP-19855,Roy Phan,Corporate,50,United States,Central,Kenosha,Wisconsin,53142
+TB-21175,Thomas Boland,Corporate,45,United States,Central,Houston,Texas,77041
+BE-11455,Brad Eason,Home Office,20,United States,Central,Olathe,Kansas,66062
+JF-15565,Jill Fjeld,Consumer,36,United States,Central,Dallas,Texas,75081
+PB-19210,Phillip Breyer,Corporate,32,United States,Central,Tulsa,Oklahoma,74133
+BT-11680,Brian Thompson,Consumer,70,United States,East,Newark,Ohio,43055
+JL-15235,Janet Lee,Consumer,29,United States,Central,Chicago,Illinois,60623
+CH-12070,Cathy Hwang,Home Office,36,United States,South,Raleigh,North Carolina,27604
+ND-18460,Neil Ducich,Corporate,33,United States,South,Macon,Georgia,31204
+BF-10975,Barbara Fisher,Corporate,47,United States,South,Charlotte,North Carolina,28205
+KH-16330,Katharine Harms,Corporate,66,United States,South,Bowling Green,Kentucky,42104
+GW-14605,Giulietta Weimer,Consumer,49,United States,West,Seattle,Washington,98115
+NC-18625,Noah Childs,Corporate,48,United States,West,Aurora,Colorado,80013
+ME-18010,Michelle Ellison,Corporate,34,United States,West,San Francisco,California,94122
+BP-11230,Benjamin Patterson,Consumer,19,United States,West,Spokane,Washington,99207
+JC-15775,John Castell,Consumer,22,United States,Central,San Antonio,Texas,78207
+AS-10090,Adam Shillingsburg,Consumer,46,United States,South,Charlottesville,Virginia,22901
+AC-10450,Amy Cox,Consumer,46,United States,Central,Minneapolis,Minnesota,55407
+MD-17860,Michael Dominguez,Corporate,21,United States,Central,Indianapolis,Indiana,46203
+DB-13660,Duane Benoit,Consumer,21,United States,East,Oceanside,New York,11572
+EH-13990,Erica Hackney,Consumer,22,United States,South,Roswell,Georgia,30076
+EH-13765,Edward Hooks,Corporate,44,United States,East,Watertown,New York,13601
+SC-20230,Scot Coram,Corporate,20,United States,Central,Arlington,Texas,76017
+JE-15715,Joe Elijah,Consumer,44,United States,West,Broomfield,Colorado,80020
+AC-10615,Ann Chong,Corporate,61,United States,East,New York City,New York,10009
+JD-16015,Joy Daniels,Consumer,23,United States,Central,Chicago,Illinois,60610
+CB-12415,Christy Brittain,Consumer,47,United States,East,Columbus,Ohio,43229
+JS-16030,Joy Smith,Consumer,51,United States,Central,Houston,Texas,77036
+LW-17215,Luke Weiss,Consumer,60,United States,West,Pasadena,California,91104
+SC-20800,Stuart Calhoun,Consumer,20,United States,Central,Houston,Texas,77041
+AM-10705,Anne McFarland,Consumer,28,United States,South,Auburn,Alabama,36830
+RH-19510,Rick Huthwaite,Home Office,67,United States,East,Providence,Rhode Island,2908
+CT-11995,Carol Triggs,Consumer,57,United States,Central,Rochester,Minnesota,55901
+MC-17590,Matt Collister,Corporate,36,United States,East,Perth Amboy,New Jersey,8861
+CC-12610,Corey Catlett,Corporate,18,United States,East,Philadelphia,Pennsylvania,19134
+KA-16525,Kelly Andreada,Consumer,59,United States,West,Ontario,California,91761
+TC-20980,Tamara Chand,Corporate,29,United States,West,Seattle,Washington,98105
+BF-11080,Bart Folk,Consumer,23,United States,East,Baltimore,Maryland,21215
+MM-17260,Magdelene Morse,Consumer,49,United States,East,Wilmington,Delaware,19805
+AH-10120,Adrian Hane,Home Office,27,United States,West,Tucson,Arizona,85705
+BW-11200,Ben Wallace,Consumer,31,United States,South,Boynton Beach,Florida,33437
+SW-20245,Scot Wooten,Consumer,20,United States,West,Stockton,California,95207
+BS-11665,Brian Stugart,Consumer,21,United States,East,Philadelphia,Pennsylvania,19143
+RF-19345,Randy Ferguson,Corporate,48,United States,East,Dover,New Hampshire,3820
+WB-21850,William Brown,Consumer,38,United States,East,Philadelphia,Pennsylvania,19134
+TB-21625,Trudy Brown,Consumer,63,United States,Central,Grand Prairie,Texas,75051
+AF-10870,Art Ferguson,Consumer,63,United States,Central,College Station,Texas,77840
+RB-19435,Richard Bierner,Consumer,18,United States,Central,Saint Louis,Missouri,63116
+KF-16285,Karen Ferguson,Home Office,65,United States,West,Manteca,California,95336
+JH-15820,John Huston,Consumer,37,United States,East,Kent,Ohio,44240
+IL-15100,Ivan Liston,Consumer,53,United States,West,San Francisco,California,94122
+PB-18805,Patrick Bzostek,Home Office,61,United States,West,Salt Lake City,Utah,84106
+RH-19600,Rob Haberlin,Consumer,21,United States,South,Huntsville,Alabama,35810
+AW-10930,Arthur Wiediger,Home Office,58,United States,Central,Aurora,Illinois,60505
+ML-17410,Maris LaWare,Consumer,30,United States,East,Fairfield,Connecticut,6824
+DB-13555,Dorothy Badders,Corporate,58,United States,South,Jacksonville,Florida,32216
+MH-17620,Matt Hagelstein,Corporate,22,United States,West,San Francisco,California,94110
+DK-13375,Dennis Kane,Consumer,56,United States,East,Marion,Ohio,43302
+BT-11440,Bobby Trafton,Consumer,20,United States,West,Littleton,Colorado,80122
+DB-13405,Denny Blanton,Consumer,41,United States,Central,La Porte,Indiana,46350
+TG-21310,Toby Gnade,Consumer,68,United States,West,Los Angeles,California,90049
+BF-11005,Barry Franz,Home Office,56,United States,West,Pasadena,California,91104
+JM-16195,Justin MacKendrick,Consumer,18,United States,West,Los Angeles,California,90004
+MZ-17335,Maria Zettner,Home Office,29,United States,West,San Diego,California,92024
+MW-18220,Mitch Webber,Consumer,69,United States,East,New York City,New York,10035
+MV-17485,Mark Van Huff,Consumer,54,United States,South,Arlington,Virginia,22204
+SM-20320,Sean Miller,Home Office,62,United States,South,Monroe,North Carolina,28110
+TP-21415,Tom Prescott,Consumer,52,United States,West,Seattle,Washington,98115
+JK-15625,Jim Karlsson,Consumer,34,United States,West,Seattle,Washington,98115
+PJ-18835,Patrick Jones,Corporate,19,United States,South,Murfreesboro,Tennessee,37130
+RS-19420,Ricardo Sperren,Corporate,44,United States,West,Seattle,Washington,98115
+SV-20935,Susan Vittorini,Consumer,53,United States,East,New York City,New York,10009
+BC-11125,Becky Castell,Home Office,35,United States,West,Peoria,Arizona,85345
+EM-13825,Elizabeth Moffitt,Corporate,63,United States,Central,Sioux Falls,South Dakota,57103
+BM-11575,Brendan Murry,Corporate,22,United States,East,New York City,New York,10035
+KN-16705,Kristina Nunn,Home Office,65,United States,West,Fort Collins,Colorado,80525
+KW-16570,Kelly Williams,Consumer,50,United States,South,Clarksville,Tennessee,37042
+SC-20260,Scott Cohen,Corporate,24,United States,West,San Francisco,California,94122
+CV-12295,Christina VanderZanden,Consumer,58,United States,West,Fresno,California,93727
+SG-20605,Speros Goranitis,Consumer,69,United States,East,New York City,New York,10009
+TM-21010,Tamara Manning,Consumer,31,United States,West,San Francisco,California,94122
+EM-13810,Eleni McCrary,Corporate,59,United States,West,Los Angeles,California,90036
+ML-18040,Michelle Lonsdale,Corporate,22,United States,West,Albuquerque,New Mexico,87105
+CR-12580,Clay Rozendal,Home Office,52,United States,Central,Elmhurst,Illinois,60126
+AZ-10750,Annie Zypern,Consumer,59,United States,East,New York City,New York,10009
+PW-19240,Pierre Wener,Consumer,70,United States,West,Louisville,Colorado,80027
+SC-20380,Shahid Collister,Consumer,68,United States,West,Seattle,Washington,98115
+CM-11935,Carlos Meador,Consumer,56,United States,South,Fayetteville,North Carolina,28314
+GM-14695,Greg Maxwell,Corporate,49,United States,West,Los Angeles,California,90036
+TB-21250,Tim Brockman,Consumer,39,United States,East,New York City,New York,10024
+JM-15865,John Murray,Consumer,66,United States,East,Jamestown,New York,14701
+SC-20575,Sonia Cooley,Consumer,58,United States,Central,Mishawaka,Indiana,46544
+LS-17200,Luke Schmidt,Corporate,59,United States,Central,Skokie,Illinois,60076
+RR-19315,Ralph Ritter,Consumer,31,United States,West,San Francisco,California,94110
+DB-12910,Daniel Byrd,Home Office,38,United States,South,Tampa,Florida,33614
+TT-21220,Thomas Thornton,Consumer,47,United States,Central,Houston,Texas,77041
+LO-17170,Lori Olson,Corporate,29,United States,West,La Quinta,California,92253
+KD-16615,Ken Dana,Corporate,41,United States,West,Scottsdale,Arizona,85254
+NB-18580,Nicole Brennan,Corporate,33,United States,East,Philadelphia,Pennsylvania,19134
+BD-11635,Brian Derr,Consumer,42,United States,South,Bowling Green,Kentucky,42104
+CM-12235,Chris McAfee,Consumer,35,United States,Central,Carrollton,Texas,75007
+EN-13780,Edward Nazzal,Consumer,64,United States,East,New York City,New York,10035
+KN-16450,Kean Nguyen,Corporate,47,United States,South,Jacksonville,Florida,32216
+BO-11350,Bill Overfelt,Corporate,46,United States,West,Los Angeles,California,90045
+AG-10300,Aleksandra Gannaway,Corporate,68,United States,West,Los Angeles,California,90049
+MC-17635,Matthew Clasen,Corporate,49,United States,Central,Saint Louis,Missouri,63116
+TA-21385,Tom Ashbrook,Home Office,19,United States,East,New York City,New York,10024
+JF-15295,Jason Fortune-,Consumer,59,United States,West,Seattle,Washington,98103
+TT-21265,Tim Taslimi,Corporate,69,United States,West,Los Angeles,California,90045
+SB-20170,Sarah Bern,Consumer,62,United States,East,New York City,New York,10035
+CL-12700,Craig Leslie,Home Office,36,United States,Central,Springfield,Missouri,65807
+HG-15025,Hunter Glantz,Consumer,30,United States,Central,Amarillo,Texas,79109
+NL-18310,Nancy Lomonaco,Home Office,69,United States,West,Los Angeles,California,90045
+RR-19525,Rick Reed,Corporate,51,United States,East,Lowell,Massachusetts,1852
+TC-21295,Toby Carlisle,Consumer,31,United States,West,San Diego,California,92024
+SV-20785,Stewart Visinsky,Consumer,34,United States,West,Pueblo,Colorado,81001
+BE-11410,Bobby Elias,Consumer,54,United States,East,Lancaster,Ohio,43130
+SC-20680,Steve Carroll,Home Office,31,United States,South,Columbus,Georgia,31907
+DF-13135,David Flashing,Consumer,45,United States,West,Vallejo,California,94591
+FH-14350,Fred Harton,Consumer,45,United States,West,Seattle,Washington,98105
+MS-17530,MaryBeth Skach,Consumer,45,United States,West,San Diego,California,92037
+RH-19555,Ritsa Hightower,Consumer,61,United States,South,Tallahassee,Florida,32303
+GA-14515,George Ashbrook,Consumer,42,United States,West,San Francisco,California,94122
+JP-16135,Julie Prescott,Home Office,57,United States,South,Columbus,Georgia,31907
+Dp-13240,Dean percer,Home Office,64,United States,West,Murray,Utah,84107
+MO-17950,Michael Oakman,Consumer,35,United States,Central,Dallas,Texas,75220
+DL-13330,Denise Leinenbach,Consumer,69,United States,West,Las Cruces,New Mexico,88001
+MH-18025,Michelle Huthwaite,Consumer,40,United States,West,Seattle,Washington,98115
+DR-12940,Daniel Raglin,Home Office,65,United States,East,Franklin,Massachusetts,2038
+DM-13015,Darrin Martin,Consumer,53,United States,West,Encinitas,California,92024
+CA-11965,Carol Adams,Corporate,19,United States,South,Hoover,Alabama,35244
+AC-10660,Anna Chung,Consumer,30,United States,Central,Huntsville,Texas,77340
+DM-13345,Denise Monton,Corporate,46,United States,South,Roswell,Georgia,30076
+VF-21715,Vicky Freymann,Home Office,59,United States,Central,Columbus,Indiana,47201
+CC-12370,Christopher Conant,Consumer,38,United States,South,Fayetteville,North Carolina,28314
+BF-11275,Beth Fritzler,Corporate,21,United States,West,Tucson,Arizona,85705
+HG-14845,Harry Greene,Consumer,63,United States,South,Lake Charles,Louisiana,70601
+BP-11155,Becky Pak,Consumer,46,United States,South,Columbus,Georgia,31907
+EM-14140,Eugene Moren,Home Office,49,United States,West,Glendale,Arizona,85301
+MA-17995,Michelle Arnett,Home Office,33,United States,East,Watertown,New York,13601
+AY-10555,Andy Yotov,Corporate,61,United States,West,Oceanside,California,92054
+GB-14575,Giulietta Baptist,Consumer,50,United States,East,Philadelphia,Pennsylvania,19134
+JB-16045,Julia Barnett,Home Office,65,United States,South,Columbus,Georgia,31907
+MG-17875,Michael Grace,Home Office,67,United States,East,New York City,New York,10011
+SR-20425,Sharelle Roach,Home Office,25,United States,West,Louisville,Colorado,80027
+JB-16000,Joy Bell-,Consumer,46,United States,Central,Brownsville,Texas,78521
+DM-12955,Dario Medina,Corporate,26,United States,Central,Lincoln Park,Michigan,48146
+TC-21475,Tony Chapman,Home Office,64,United States,South,Columbus,Georgia,31907
+SW-20350,Sean Wendt,Home Office,51,United States,Central,Detroit,Michigan,48227
+RE-19450,Richard Eichhorn,Consumer,30,United States,Central,Dallas,Texas,75081
+BF-11215,Benjamin Farhat,Home Office,69,United States,West,Albuquerque,New Mexico,87105
+KB-16405,Katrina Bavinger,Home Office,34,United States,West,Apple Valley,California,92307
+JG-15310,Jason Gross,Corporate,61,United States,East,Providence,Rhode Island,2908
+EC-14050,Erin Creighton,Consumer,52,United States,East,New York City,New York,10024
+EB-14110,Eugene Barchas,Consumer,44,United States,East,Philadelphia,Pennsylvania,19134
+JP-15460,Jennifer Patt,Corporate,69,United States,East,Oceanside,New York,11572
+CS-11845,Cari Sayre,Corporate,24,United States,West,Seattle,Washington,98105
+GH-14410,Gary Hansen,Home Office,42,United States,West,Glendale,Arizona,85301
+PT-19090,Pete Takahito,Consumer,48,United States,Central,Houston,Texas,77070
+JL-15130,Jack Lebron,Consumer,63,United States,Central,Houston,Texas,77036
+AH-10030,Aaron Hawkins,Corporate,60,United States,East,Philadelphia,Pennsylvania,19134
+CC-12475,Cindy Chapman,Consumer,48,United States,East,New York City,New York,10024
+DW-13195,David Wiener,Corporate,55,United States,Central,Houston,Texas,77095
+SJ-20215,Sarah Jordon,Consumer,50,United States,Central,Grand Prairie,Texas,75051
+BG-11740,Bruce Geld,Consumer,39,United States,East,Philadelphia,Pennsylvania,19120
+LB-16795,Laurel Beltran,Home Office,18,United States,Central,Highland Park,Illinois,60035
+CM-11815,Candace McMahon,Corporate,28,United States,Central,Pasadena,Texas,77506
+EH-14185,Evan Henry,Consumer,31,United States,South,Decatur,Alabama,35601
+TS-21505,Tony Sayre,Consumer,32,United States,South,Columbia,Tennessee,38401
+PR-18880,Patrick Ryan,Consumer,44,United States,West,Oakland,California,94601
+LC-17050,Liz Carlisle,Consumer,60,United States,West,Mission Viejo,California,92691
+CS-12490,Cindy Schnelling,Corporate,32,United States,Central,Conroe,Texas,77301
+DH-13075,Dave Hallsten,Corporate,58,United States,South,Richmond,Kentucky,40475
+JO-15145,Jack O'Briant,Corporate,68,United States,East,Philadelphia,Pennsylvania,19140
+AH-10690,Anna Haberlin,Corporate,39,United States,East,New York City,New York,10024
+HJ-14875,Heather Jas,Home Office,32,United States,South,Jacksonville,Florida,32216
+MH-17455,Mark Hamilton,Consumer,49,United States,South,Jacksonville,North Carolina,28540
+RD-19930,Russell D'Ascenzo,Consumer,67,United States,Central,Austin,Texas,78745
+SC-20020,Sam Craven,Consumer,56,United States,Central,Plano,Texas,75023
+SU-20665,Stephanie Ulpright,Home Office,30,United States,South,Jackson,Mississippi,39212
+FC-14335,Fred Chung,Corporate,64,United States,Central,Mesquite,Texas,75150
+RB-19330,Randy Bradley,Consumer,63,United States,East,Philadelphia,Pennsylvania,19143
+NC-18535,Nick Crebassa,Corporate,59,United States,Central,Dallas,Texas,75217
+DB-12970,Darren Budd,Corporate,42,United States,West,Los Angeles,California,90004
+MF-17665,Maureen Fritzler,Corporate,37,United States,East,Toledo,Ohio,43615
+RM-19750,Roland Murray,Consumer,66,United States,East,New York City,New York,10011
+VM-21835,Vivian Mathis,Consumer,60,United States,East,Newark,Delaware,19711
+EJ-13720,Ed Jacobs,Consumer,44,United States,West,San Diego,California,92037
+NC-18415,Nathan Cano,Consumer,29,United States,South,Jacksonville,North Carolina,28540
+LS-17230,Lycoris Saunders,Consumer,42,United States,East,Dover,Delaware,19901
+KE-16420,Katrina Edelman,Corporate,53,United States,South,Bristol,Tennessee,37620
+DH-13675,Duane Huffman,Home Office,65,United States,East,Quincy,Massachusetts,2169
+PF-19120,Peter Fuller,Consumer,48,United States,West,Gilbert,Arizona,85234
+VT-21700,Valerie Takahito,Home Office,44,United States,East,Philadelphia,Pennsylvania,19143
+MG-17695,Maureen Gnade,Consumer,33,United States,East,Buffalo,New York,14215
+SP-20920,Susan Pistek,Consumer,37,United States,West,Los Angeles,California,90036
+CS-12175,Charles Sheldon,Corporate,67,United States,South,Columbia,Tennessee,38401
+DK-12895,Dana Kaydos,Consumer,47,United States,Central,Kenosha,Wisconsin,53142
+KM-16660,Khloe Miller,Consumer,57,United States,South,Roswell,Georgia,30076
+AA-10645,Anna Andreadi,Consumer,32,United States,East,Chester,Pennsylvania,19013
+DD-13570,Dorothy Dickinson,Consumer,32,United States,Central,Houston,Texas,77041
+AH-10465,Amy Hunt,Consumer,24,United States,East,New York City,New York,10035
+TP-21565,Tracy Poddar,Corporate,25,United States,West,Aurora,Colorado,80013
+EK-13795,Eileen Kiefer,Home Office,25,United States,West,Santa Ana,California,92704
+CR-12820,Cyra Reiten,Home Office,38,United States,East,New York City,New York,10035
+SG-20890,Susan Gilcrest,Corporate,41,United States,Central,Mcallen,Texas,78501
+AH-10585,Angele Hood,Consumer,34,United States,Central,Chicago,Illinois,60623
+NF-18475,Neil Franzosisch,Home Office,55,United States,Central,Rockford,Illinois,61107
+BS-11365,Bill Shonely,Corporate,34,United States,East,New York City,New York,10011
+SH-20635,Stefanie Holloman,Corporate,57,United States,South,Jackson,Tennessee,38301
+RD-19720,Roger Demir,Consumer,30,United States,South,Daytona Beach,Florida,32114
+AG-10330,Alex Grayson,Consumer,51,United States,West,Stockton,California,95207
+GR-14560,Georgia Rosenberg,Corporate,33,United States,West,San Francisco,California,94110
+VS-21820,Vivek Sundaresam,Consumer,22,United States,West,Los Angeles,California,90036
+TM-21490,Tony Molinari,Consumer,63,United States,Central,Oklahoma City,Oklahoma,73120
+TS-21430,Tom Stivers,Corporate,22,United States,West,Los Angeles,California,90045
+DB-13360,Dennis Bolton,Home Office,41,United States,East,New York City,New York,10009
+NR-18550,Nick Radford,Consumer,21,United States,Central,Aurora,Illinois,60505
+CS-11860,Cari Schnelling,Consumer,69,United States,South,Jacksonville,North Carolina,28540
+MF-18250,Monica Federle,Corporate,34,United States,West,Los Angeles,California,90036
+LW-17125,Liz Willingham,Consumer,55,United States,East,Norwich,Connecticut,6360
+AR-10345,Alex Russell,Corporate,38,United States,East,Lawrence,Massachusetts,1841
+KS-16300,Karen Seio,Corporate,53,United States,West,Lehi,Utah,84043
+AB-10015,Aaron Bergman,Consumer,66,United States,West,Seattle,Washington,98103
+LR-17035,Lisa Ryan,Corporate,62,United States,East,Philadelphia,Pennsylvania,19134
+SS-20410,Shahid Shariari,Consumer,35,United States,West,Los Angeles,California,90008
+JM-15580,Jill Matthias,Consumer,37,United States,South,Monroe,North Carolina,28110
+JK-15325,Jason Klamczynski,Corporate,69,United States,Central,Dallas,Texas,75220
+DM-13525,Don Miller,Corporate,18,United States,Central,Houston,Texas,77070
+ML-18265,Muhammed Lee,Consumer,51,United States,West,Seattle,Washington,98103
+MH-17290,Marc Harrigan,Home Office,39,United States,West,Los Angeles,California,90036
+FC-14245,Frank Carlisle,Home Office,20,United States,East,Lakewood,Ohio,44107
+TH-21115,Thea Hudgings,Corporate,38,United States,East,Philadelphia,Pennsylvania,19140
+JK-16090,Juliana Krohn,Consumer,51,United States,Central,Omaha,Nebraska,68104
+SB-20185,Sarah Brown,Consumer,31,United States,East,Concord,New Hampshire,3301
+BG-11035,Barry Gonzalez,Consumer,57,United States,South,Monroe,Louisiana,71203
+BW-11065,Barry Weirich,Consumer,30,United States,South,Raleigh,North Carolina,27604
+MG-18205,Mitch Gastineau,Corporate,55,United States,South,Jacksonville,Florida,32216
+DO-13645,Doug O'Connell,Consumer,20,United States,West,Los Angeles,California,90036
+BP-11050,Barry Pond,Corporate,65,United States,East,Cranston,Rhode Island,2920
+TS-21655,Trudy Schmidt,Consumer,21,United States,Central,Milwaukee,Wisconsin,53209
+EM-14200,Evan Minnotte,Home Office,52,United States,South,Virginia Beach,Virginia,23464
+AO-10810,Anthony O'Donnell,Corporate,66,United States,West,Los Angeles,California,90045
+MH-17440,Mark Haberlin,Corporate,47,United States,East,New York City,New York,10035
+SS-20515,Shirley Schmidt,Home Office,31,United States,South,Louisville,Kentucky,40214
+LD-16855,Lela Donovan,Corporate,52,United States,Central,Chicago,Illinois,60653
+VP-21760,Victoria Pisteka,Corporate,35,United States,West,San Francisco,California,94109
+TC-21145,Theresa Coyne,Corporate,63,United States,East,Lakewood,New Jersey,8701
+IM-15055,Ionia McGrath,Consumer,40,United States,West,Roseville,California,95661
+AR-10570,Anemone Ratner,Consumer,36,United States,South,Columbus,Georgia,31907
+CM-12715,Craig Molinari,Corporate,53,United States,Central,Huntsville,Texas,77340
+FW-14395,Fred Wasserman,Corporate,41,United States,South,Huntsville,Alabama,35810
+LC-16960,Lindsay Castell,Home Office,57,United States,South,Arlington,Virginia,22204
+HE-14800,Harold Engle,Corporate,31,United States,Central,Chicago,Illinois,60623
+BD-11560,Brendan Dodson,Home Office,54,United States,West,Fresno,California,93727
+HD-14785,Harold Dahlen,Home Office,32,United States,East,Philadelphia,Pennsylvania,19143
+CJ-11875,Carl Jackson,Corporate,64,United States,East,Philadelphia,Pennsylvania,19140
+RS-19870,Roy Skaria,Home Office,39,United States,Central,Burlington,Iowa,52601
+SC-20845,Sung Chung,Consumer,69,United States,Central,Arlington Heights,Illinois,60004
+RE-19405,Ricardo Emerson,Consumer,35,United States,East,Kent,Ohio,44240
+SM-20905,Susan MacKendrick,Consumer,46,United States,East,Newark,Ohio,43055

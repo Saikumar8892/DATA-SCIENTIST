@@ -1,0 +1,94 @@
+show databases;
+# create database dataanalytics_db;
+use dataanalytics_db;
+show tables;
+select * from mba;
+desc mba;
+
+# Create a table - define the schema (DDL command)
+create table education(datasrno int, workex int, gmat int);
+desc education;
+
+# Insert into the table - DML command
+Insert into education values(1, 10, 700), (2, 11, 650), (3, 12, 690);
+select * from education;
+
+#2.	import data from CSV file ‘education.csv’
+show variables like 'secure_file_priv';
+show variables like '%local%';
+# OPT_LOCAL_INFILE=1   ---> set this parameter in workbench user connection settings (under Advanced)
+
+LOAD DATA INFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/education.csv'
+INTO TABLE education 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"' 
+LINES TERMINATED BY '\n' 
+IGNORE 1 ROWS;
+
+select * from education;
+
+
+# mean    
+SELECT AVG(workex) AS mean_workex
+FROM education;
+
+# median
+SELECT workex AS median_experience
+FROM (
+    SELECT workex, ROW_NUMBER() OVER (ORDER BY workex) AS row_num,
+           COUNT(*) OVER () AS total_count
+    FROM education
+) AS subquery
+WHERE row_num = (total_count + 1) / 2 OR row_num = (total_count + 2) / 2;   
+
+# mode
+ SELECT workex AS mode_workex
+FROM (
+    SELECT workex, COUNT(*) AS frequency
+    FROM education
+    GROUP BY workex
+    ORDER BY frequency DESC
+    LIMIT 1
+) AS subquery;
+
+# Second Moment Business Decision/Measures of Dispersion
+# Variance
+SELECT VARIANCE(workex) AS workex_variance
+FROM education;
+
+# Standard Deviation 
+SELECT STDDEV(workex) AS workex_stddev
+FROM education;
+
+# Range
+SELECT MAX(workex) - MIN(workex) AS experience_range
+FROM education;
+
+
+# Third and Fourth Moment Business Decision
+-- skewness and kurkosis 
+SELECT
+    (
+        SUM(POWER(workex - (SELECT AVG(workex) FROM education), 3)) / 
+        (COUNT(*) * POWER((SELECT STDDEV(workex) FROM education), 3))
+    ) AS skewness,
+    (
+        (SUM(POWER(workex - (SELECT AVG(workex) FROM education), 4)) / 
+        (COUNT(*) * POWER((SELECT STDDEV(workex) FROM education), 4))) - 3
+    ) AS kurtosis
+FROM education;
+
+
+/*
+Skewness Calculation:
+The code uses the formula for skewness: (Σ((x - μ)^3) / (n * σ^3)), where x is each salary value, μ is the mean of the salaries, σ is the standard deviation of the salaries, and n is the total number of salaries.
+It calculates the sum of the cube of the differences between each salary and the average salary, and divides it by the product of the number of salaries and the cube of the standard deviation.
+This calculates the skewness value, representing the measure of the asymmetry of the salary distribution.
+
+Kurtosis Calculation:
+The code uses the formula for kurtosis: ((Σ((x - μ)^4) / (n * σ^4)) - 3), where x is each salary value, μ is the mean of the salaries, σ is the standard deviation of the salaries, and n is the total number of salaries.
+It calculates the sum of the fourth power of the differences between each salary and the average salary, and divides it by the product of the number of salaries and the fourth power of the standard deviation.
+It then subtracts 3 from the result, following the convention to subtract 3 from the kurtosis value to get the excess kurtosis.
+This calculates the kurtosis value, representing the measure of the heaviness of the tails or the presence of outliers in the salary distribution.
+*/
+

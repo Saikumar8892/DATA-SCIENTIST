@@ -1,0 +1,93 @@
+Joins:
+
+> create table courses (name varchar(20), course varchar(20));
+
+> insert into courses values ('BBB', 'Tableau'), ('CCC', 'Python'), ('DDD', 'Data Analytics'), ('EEE', 'SQL');
+
+> select * from courses;
+
+> create table students (name varchar(20), age int);
+
+> insert into students values ('AAA', 22), ('BBB', 24), ('CCC', 25), ('DDD', 30);
+
+> select * from students;
+
+
+Inner Join:
+
+> select name, course, age from students inner join courses on name = name;  --- column reference "name" is ambiguous
+
+> select students.name, age, course from students inner join courses on students.name = courses.name;
+
+
+Left Join:
+select students.name, age, course from students left join courses on students.name = courses.name;
+
+
+Right Join:
+select students.name, age, courses.name, course from students right join courses on students.name = courses.name;
+
+
+Full Join:
+select students.name, age, courses.name, course from students full join courses on students.name = courses.name;
+--- Full join is not supported in MySQL
+
+Cross Join:
+select students.name, age, courses.name, course from students cross join courses;
+
+
+Left Outer Join: (Left Only scenario) - 
+select students.name, age, course from students left join courses on students.name = courses.name where courses.name is null;
+
+
+Right Outer Join: (Right Only Scenario) - 
+select students.name, age, courses.name, course from students right join courses 
+on students.name = courses.name where students.name is null;
+
+
+Full Outer Join: (Not Inner) scenario - 
+select students.name, age, courses.name, course from students full join courses on students.name = courses.name where students.name is null or courses.name is null;
+___________________________________________________________________________________
+Check Constraint:
+
+> create table school(name varchar, schoolname varchar default '360digitmg', age int, check (age>= 10));
+
+> insert into school (name, age) values ('Ram', 10), ('Ravi', 20);
+
+> select * from school;
+
+> insert into school (name, age)  values ('Priya', 8);  
+---- new row for relation "school" violates check constraint "school_age_check"
+
+Eg 2:
+> CREATE TABLE products ( product_no integer, name text, price numeric CHECK (price > 0));
+
+> insert into products values(1, 'apples', 100.00),(2, 'oranges', 200.00);
+
+> select * from products;
+
+> insert into products values(3, 'grapes', -100.00),(4, 'plums', 200.00);
+---- new row for relation "products" violates check constraint "products_price_check"
+
+
+> insert into products values(3, 'grapes', 150.00),(4, 'plums', 200.00);
+
+
+TIMESTAMP and DATE data types:
+> Create table emp(id serial primary key,
+ name varchar(20) not null,
+ dept varchar(10) not null,
+ date_of_joining timestamp not null default current_timestamp,
+ status varchar(10) default 'Active',
+ salary real not null,
+ last_updated timestamp default now());
+
+
+> select * from emp;
+
+
+> insert into emp (name, dept, salary) values ('Ravi Kiran', 'HR', 40000.00), 
+('Priya Darshini', 'IT', 25000.00),('Mohan Bhargav', 'Finance', 30000.00);
+
+
+Note: MySQL displays DATE values in the 'YYYY-MM-DD' format.
