@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Association Rules</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: red;
+      font-size: 32px;
+      margin-top: 0;
+    }
+
+    .login {
+      max-width: 700px;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin: auto;
+    }
+
+    select[name="mn"], input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    input[type="number"]:focus {
+      outline: none;
+      border-color: #4caf50;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    marquee {
+      background-color: #97eebd;
+      padding: 10px 0;
+      font-size: 24px;
+      color: #333;
+      text-align: center;
+      margin-top: 0;
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="login">
+    <marquee>Recommendation Engine Application</marquee>
+    <img src="//aispry.com/pluginfile.php/1/theme_university/footerlogo/1711425530/logo-new-footer.png" alt="Logo">
+    <h1>Recommendation Engine Application</h1>
+
+    <form action="/guest" method="post">
+      <label for="mn">Select any movie:</label>
+      <select name="mn">
+        {% for movie in movies_list %}
+        <option value="{{ movie }}">{{ movie }}</option>
+        {% endfor %}
+      </select>
+      <br><br>
+      <label for="tp">Select number of recommendations:</label>
+      <input type="number" name="tp" placeholder="Top recommendation"/>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+</body>
+</html>

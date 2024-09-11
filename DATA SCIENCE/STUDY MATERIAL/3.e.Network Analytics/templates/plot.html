@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Visualization</title>
+        <style>
+        div.polaroid {
+            width: 500px;
+            height: auto;
+            background-color: rgb(194, 43, 43);
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            margin-bottom: 25px;
+            margin-left: auto;
+            margin-right: auto;
+          }
+          
+          div.container {
+            text-align: center;
+            padding: 10px 20px;
+          }
+          div.center {
+            text-align: center;
+            padding: 10px 20px;
+          }
+          </style>
+    </head>
+    <body>
+        <div class = center>
+          <h2>source airport to destination apirport</h2>
+        </div>
+        <div class="polaroid">
+            <img src="{{ url_for('graph')}}" alt="graph" style="width:100%">
+            <div class="container">
+            <b>connecting_routes</b>
+            </div>
+          </div>
+    </body>
+</html>   

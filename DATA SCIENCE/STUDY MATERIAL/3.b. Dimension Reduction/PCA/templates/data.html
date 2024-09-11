@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <style>
+        .container {
+            max-width: auto; /* Adjust this value to set the maximum width of the container */
+            margin:  auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Hide overflowing content */
+        }
+
+        .table-container {
+            max-height: 800px; /* Set the maximum height of the table container */
+            overflow: auto; /* Enable vertical and horizontal scrolling if needed */
+        }
+
+        .table {
+            width: 50%; /* Adjust this value to set the table width */
+            margin: 0 auto; /* Center the table horizontally */
+            border-collapse: collapse;
+        }
+
+
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+
+        /* Change the color of the first column (index 1) */
+        .table tr td:nth-child(2)
+         {
+            background-color: #eacf89; /* Change this to your desired color */
+            color: #110404; /* Change the text color if needed */
+        }
+       
+        .table thead {
+            background-color: #39648f;
+        }
+        .table td {
+            background-color: #888a9e;
+        }
+
+        .table tbody th {
+            background-color: #ab2c3f;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="table-container">
+            <table class="table">
+                {{ Y | safe }}
+            </table>
+        </div>
+    </div>
+</body>
+</html>
