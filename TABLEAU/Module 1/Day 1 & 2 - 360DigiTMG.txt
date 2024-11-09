@@ -1,0 +1,59 @@
+Paid Tools (available for a 14 day free trial)
+
+Tableau Desktop - Authoring tool used to create graphs, plots, charts, maps, views, vizs
+Tableau Prep - Prepare the data for analysis (clean the data)
+Tableau Server - Sharing and collaborating platform in a very secure manner (role based security (viewer, explorer, creator, administrator); data level security 
+Tableau Online - Tableau Server on the Cloud
+
+Free Tools
+Tableau Public - Free version of Tableau Desktop with a few limitations
+Tableau Reader - Open the workbooks in Read Only Mode (view and interact)
+Tableau Mobile - Free App - view the reports
+
+
+Start Page - 
+First thing to do is to connect to data (files or data server)
+Then we reach Data Source Page - Configure the data connection
+
+Drag and drop the table - that will give you a preview of the data on the "Data Grid".
+You can check the Data type, change the data type, rename the fields, give Aliases, Hide and Unhide fields.
+
+Meta Data - Data about the data
+Modes of Connection 
+1) Live - Direct Connection, up to information (latest data from the data source will be reflected in the graphs while you are interacting with the reports)
+
+Dis Adv: Offline access to data wont be there, Performance might be slow due to network delay.
+
+2) Extract - Fetch and save a copy of the data and save it locally on your machine (tableau data extract file .hyper)
+
+Adv: Offline Access to the data, performance will be good as there is no network delay
+
+Dis Adv: outdated information (to overcome this problem, we need to refresh the data from time to time)
+
+1) understand the requirment
+2) understand the data
+3) understand the audience
+4) understand which chart to create when
+_________________________________________________________________________________________________________________________________________
+Day 2 -
+Tableau User Interface 
+Data Pane, Analytics Pane
+Rows Shelf, Columns Shelf, Filters Shelf, Pages Shelf
+Marks Card
+Show Me Panel - Crown Jewel of Tableau
+
+Measures - Numbers except pseudo numbers (numbers used for identification purpose)
+Dimensions - Non-Numerical Data (String, Dates, Date and Time, Boolean) and pseudo numbers
+
+Pill
+Blue Pill - Discrete Data - Distinct set of values in it - Field Labels
+Green Pill - Continuous Data - Range of values in it - Axis
+
+Save and Share Options
+Tableau Workbook (.twb) - All the sheets and connection details to the resources used in the workbook
+
+***Workbooks created on Tableau Desktop cannot be opened on Tableau Public
+***Workbooks created on Tableau Public can be opened on Tableau Desktop
+
+Web Authoring
+Web Edit

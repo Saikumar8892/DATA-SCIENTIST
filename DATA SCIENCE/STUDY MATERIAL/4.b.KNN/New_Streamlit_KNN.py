@@ -1,3 +1,4 @@
+#pip install streamlit
 # Importing necessary libraries
 import pandas as pd  # For data manipulation and analysis
 import streamlit as st  # For building interactive web applications
@@ -62,9 +63,9 @@ def main():
     # st.sidebar.markdown(html_temp, unsafe_allow_html=True)
     
     # Text input fields for user, password, and database in the sidebar
-    user = st.sidebar.text_input("user", "Type Here")
-    pw = st.sidebar.text_input("password", "Type Here", type='password')
-    db = st.sidebar.text_input("database", "Type Here")
+    user = st.sidebar.text_input("user", "root")
+    pw = st.sidebar.text_input("password", "Sai@123kumar", )
+    db = st.sidebar.text_input("database", "knn")
     
     
     
